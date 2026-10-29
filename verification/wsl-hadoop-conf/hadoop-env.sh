@@ -1,0 +1,5 @@
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+export HADOOP_HOME="/home/u5566/hadoop-3.3.6"
+export HADOOP_LOG_DIR="/tmp/credit-exp2.ZFeJ4n6K/logs"
+export HADOOP_PID_DIR="/tmp/credit-exp2.ZFeJ4n6K/pids"
+export HADOOP_IDENT_STRING="creditexp2-credit-exp2.ZFeJ4n6K"

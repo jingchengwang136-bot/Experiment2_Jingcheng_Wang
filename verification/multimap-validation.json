@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "train_input_splits": 5,
+  "test_input_splits": 4,
+  "checks_equal_to_independently_verified_run": {
+    "task1": true,
+    "task2": true,
+    "task3": true,
+    "task4": true,
+    "model": true,
+    "task5": true
+  }
+}

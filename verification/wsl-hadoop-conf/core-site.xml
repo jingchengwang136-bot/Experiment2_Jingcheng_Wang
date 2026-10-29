@@ -1,0 +1,4 @@
+<configuration>
+ <property><name>fs.defaultFS</name><value>hdfs://127.0.0.1:19000</value></property>
+ <property><name>hadoop.tmp.dir</name><value>/tmp/credit-exp2.ZFeJ4n6K/tmp</value></property>
+</configuration>

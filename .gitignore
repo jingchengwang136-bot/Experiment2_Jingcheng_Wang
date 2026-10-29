@@ -1,0 +1,6 @@
+target/*
+!target/*.jar
+data/
+.idea/
+*.log
+.local-runtime/

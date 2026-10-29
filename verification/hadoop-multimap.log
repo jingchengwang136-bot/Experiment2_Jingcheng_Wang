@@ -1,0 +1,2286 @@
+2026-10-29 18:46:17,686 WARN  MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2026-10-29 18:46:17,809 INFO  MetricsSystemImpl: Scheduled Metric snapshot period at 10 second(s).
+2026-10-29 18:46:17,809 INFO  MetricsSystemImpl: JobTracker metrics system started
+2026-10-29 18:46:19,133 INFO  FileInputFormat: Total input files to process : 1
+2026-10-29 18:46:19,249 INFO  JobSubmitter: number of splits:5
+2026-10-29 18:46:19,414 INFO  JobSubmitter: Submitting tokens for job: job_local156002746_0001
+2026-10-29 18:46:19,422 INFO  JobSubmitter: Executing with tokens: []
+2026-10-29 18:46:19,733 INFO  Job: The url to track the job: http://localhost:8080/
+2026-10-29 18:46:19,733 INFO  Job: Running job: job_local156002746_0001
+2026-10-29 18:46:19,737 INFO  LocalJobRunner: OutputCommitter set in config null
+2026-10-29 18:46:19,745 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:19,753 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:19,753 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:19,753 INFO  LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2026-10-29 18:46:19,835 INFO  LocalJobRunner: Waiting for map tasks
+2026-10-29 18:46:19,835 INFO  LocalJobRunner: Starting task: attempt_local156002746_0001_m_000000_0
+2026-10-29 18:46:19,886 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:19,886 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:19,886 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:19,911 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:20,094 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@3341ee7d
+2026-10-29 18:46:20,119 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:0+4194304
+2026-10-29 18:46:20,202 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:20,202 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:20,202 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:20,202 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:20,202 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:20,211 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:20,741 INFO  LocalJobRunner: 
+2026-10-29 18:46:20,741 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:20,741 INFO  MapTask: Spilling map output
+2026-10-29 18:46:20,741 INFO  MapTask: bufstart = 0; bufend = 1217076; bufvoid = 104857600
+2026-10-29 18:46:20,741 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25983428(103933712); length = 230969/6553600
+2026-10-29 18:46:20,749 INFO  Job: Job job_local156002746_0001 running in uber mode : false
+2026-10-29 18:46:20,749 INFO  Job:  map 0% reduce 0%
+2026-10-29 18:46:21,075 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:21,137 INFO  Task: Task:attempt_local156002746_0001_m_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:21,145 INFO  LocalJobRunner: map
+2026-10-29 18:46:21,145 INFO  Task: Task 'attempt_local156002746_0001_m_000000_0' done.
+2026-10-29 18:46:21,173 INFO  Task: Final Counters for attempt_local156002746_0001_m_000000_0: Counters: 20
+	File System Counters
+		FILE: Number of bytes read=4227419
+		FILE: Number of bytes written=495525
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57744
+		Map output records=57743
+		Map output bytes=1217076
+		Map output materialized bytes=16759
+		Input split bytes=105
+		Combine input records=57743
+		Combine output records=549
+		Spilled Records=549
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=50
+		Total committed heap usage (bytes)=510656512
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=57743
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:21,173 INFO  LocalJobRunner: Finishing task: attempt_local156002746_0001_m_000000_0
+2026-10-29 18:46:21,175 INFO  LocalJobRunner: Starting task: attempt_local156002746_0001_m_000001_0
+2026-10-29 18:46:21,177 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:21,177 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:21,177 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:21,178 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:21,320 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@5fa82d32
+2026-10-29 18:46:21,337 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:4194304+4194304
+2026-10-29 18:46:21,387 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:21,387 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:21,387 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:21,387 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:21,387 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:21,387 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:21,757 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:21,790 INFO  LocalJobRunner: 
+2026-10-29 18:46:21,798 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:21,798 INFO  MapTask: Spilling map output
+2026-10-29 18:46:21,798 INFO  MapTask: bufstart = 0; bufend = 1226949; bufvoid = 104857600
+2026-10-29 18:46:21,798 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25982936(103931744); length = 231461/6553600
+2026-10-29 18:46:22,014 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:22,051 INFO  Task: Task:attempt_local156002746_0001_m_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:22,064 INFO  LocalJobRunner: map
+2026-10-29 18:46:22,064 INFO  Task: Task 'attempt_local156002746_0001_m_000001_0' done.
+2026-10-29 18:46:22,064 INFO  Task: Final Counters for attempt_local156002746_0001_m_000001_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=8426367
+		FILE: Number of bytes written=512858
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57866
+		Map output records=57866
+		Map output bytes=1226949
+		Map output materialized bytes=17277
+		Input split bytes=105
+		Combine input records=57866
+		Combine output records=547
+		Spilled Records=547
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=13
+		Total committed heap usage (bytes)=643825664
+	edu.lab.CreditAnalysis$Rows
+		VALID=57866
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:22,064 INFO  LocalJobRunner: Finishing task: attempt_local156002746_0001_m_000001_0
+2026-10-29 18:46:22,064 INFO  LocalJobRunner: Starting task: attempt_local156002746_0001_m_000002_0
+2026-10-29 18:46:22,064 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:22,064 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:22,064 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:22,064 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:22,195 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@29ba5709
+2026-10-29 18:46:22,212 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:8388608+4194304
+2026-10-29 18:46:22,251 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:22,251 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:22,251 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:22,251 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:22,251 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:22,251 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:22,766 INFO  LocalJobRunner: 
+2026-10-29 18:46:22,767 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:22,767 INFO  MapTask: Spilling map output
+2026-10-29 18:46:22,767 INFO  MapTask: bufstart = 0; bufend = 1230411; bufvoid = 104857600
+2026-10-29 18:46:22,767 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25981636(103926544); length = 232761/6553600
+2026-10-29 18:46:22,940 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:22,973 INFO  Task: Task:attempt_local156002746_0001_m_000002_0 is done. And is in the process of committing
+2026-10-29 18:46:22,982 INFO  LocalJobRunner: map
+2026-10-29 18:46:22,982 INFO  Task: Task 'attempt_local156002746_0001_m_000002_0' done.
+2026-10-29 18:46:22,982 INFO  Task: Final Counters for attempt_local156002746_0001_m_000002_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=12625315
+		FILE: Number of bytes written=530822
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58191
+		Map output records=58191
+		Map output bytes=1230411
+		Map output materialized bytes=17908
+		Input split bytes=105
+		Combine input records=58191
+		Combine output records=529
+		Spilled Records=529
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=175
+		Total committed heap usage (bytes)=936902656
+	edu.lab.CreditAnalysis$Rows
+		VALID=58191
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:22,982 INFO  LocalJobRunner: Finishing task: attempt_local156002746_0001_m_000002_0
+2026-10-29 18:46:22,982 INFO  LocalJobRunner: Starting task: attempt_local156002746_0001_m_000003_0
+2026-10-29 18:46:22,982 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:22,982 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:22,982 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:22,982 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:23,122 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2fe42fc0
+2026-10-29 18:46:23,138 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:12582912+4194304
+2026-10-29 18:46:23,162 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:23,163 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:23,163 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:23,163 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:23,163 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:23,164 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:23,539 INFO  LocalJobRunner: 
+2026-10-29 18:46:23,544 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:23,544 INFO  MapTask: Spilling map output
+2026-10-29 18:46:23,544 INFO  MapTask: bufstart = 0; bufend = 1229532; bufvoid = 104857600
+2026-10-29 18:46:23,544 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25979488(103917952); length = 234909/6553600
+2026-10-29 18:46:23,742 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:23,775 INFO  Job:  map 60% reduce 0%
+2026-10-29 18:46:23,775 INFO  Task: Task:attempt_local156002746_0001_m_000003_0 is done. And is in the process of committing
+2026-10-29 18:46:23,783 INFO  LocalJobRunner: map
+2026-10-29 18:46:23,783 INFO  Task: Task 'attempt_local156002746_0001_m_000003_0' done.
+2026-10-29 18:46:23,783 INFO  Task: Final Counters for attempt_local156002746_0001_m_000003_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=16824263
+		FILE: Number of bytes written=551127
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58728
+		Map output records=58728
+		Map output bytes=1229532
+		Map output materialized bytes=20249
+		Input split bytes=105
+		Combine input records=58728
+		Combine output records=611
+		Spilled Records=611
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=936902656
+	edu.lab.CreditAnalysis$Rows
+		VALID=58728
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:23,783 INFO  LocalJobRunner: Finishing task: attempt_local156002746_0001_m_000003_0
+2026-10-29 18:46:23,783 INFO  LocalJobRunner: Starting task: attempt_local156002746_0001_m_000004_0
+2026-10-29 18:46:23,783 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:23,783 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:23,783 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:23,783 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:23,897 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@7460faf8
+2026-10-29 18:46:23,914 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:16777216+3759531
+2026-10-29 18:46:23,947 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:23,947 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:23,947 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:23,947 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:23,947 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:23,956 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:24,212 INFO  LocalJobRunner: 
+2026-10-29 18:46:24,212 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:24,212 INFO  MapTask: Spilling map output
+2026-10-29 18:46:24,212 INFO  MapTask: bufstart = 0; bufend = 1103996; bufvoid = 104857600
+2026-10-29 18:46:24,212 INFO  MapTask: kvstart = 26214396(104857584); kvend = 26003372(104013488); length = 211025/6553600
+2026-10-29 18:46:24,375 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:24,400 INFO  Task: Task:attempt_local156002746_0001_m_000004_0 is done. And is in the process of committing
+2026-10-29 18:46:24,408 INFO  LocalJobRunner: map
+2026-10-29 18:46:24,408 INFO  Task: Task 'attempt_local156002746_0001_m_000004_0' done.
+2026-10-29 18:46:24,408 INFO  Task: Final Counters for attempt_local156002746_0001_m_000004_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=20584342
+		FILE: Number of bytes written=573591
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=52757
+		Map output records=52757
+		Map output bytes=1103996
+		Map output materialized bytes=22408
+		Input split bytes=105
+		Combine input records=52757
+		Combine output records=687
+		Spilled Records=687
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=4
+		Total committed heap usage (bytes)=937426944
+	edu.lab.CreditAnalysis$Rows
+		VALID=52757
+	File Input Format Counters 
+		Bytes Read=3759531
+2026-10-29 18:46:24,408 INFO  LocalJobRunner: Finishing task: attempt_local156002746_0001_m_000004_0
+2026-10-29 18:46:24,408 INFO  LocalJobRunner: map task executor complete.
+2026-10-29 18:46:24,408 INFO  LocalJobRunner: Waiting for reduce tasks
+2026-10-29 18:46:24,408 INFO  LocalJobRunner: Starting task: attempt_local156002746_0001_r_000000_0
+2026-10-29 18:46:24,424 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:24,424 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:24,424 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:24,424 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:24,535 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@74e32a20
+2026-10-29 18:46:24,541 INFO  ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@697aebe
+2026-10-29 18:46:24,541 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:24,574 INFO  MergeManagerImpl: MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2026-10-29 18:46:24,574 INFO  EventFetcher: attempt_local156002746_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2026-10-29 18:46:24,657 INFO  LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local156002746_0001_m_000000_0 decomp: 8360 len: 8364 to MEMORY
+2026-10-29 18:46:24,665 INFO  InMemoryMapOutput: Read 8360 bytes from map-output for attempt_local156002746_0001_m_000000_0
+2026-10-29 18:46:24,665 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8360, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->8360
+2026-10-29 18:46:24,706 INFO  LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local156002746_0001_m_000001_0 decomp: 8669 len: 8673 to MEMORY
+2026-10-29 18:46:24,706 INFO  InMemoryMapOutput: Read 8669 bytes from map-output for attempt_local156002746_0001_m_000001_0
+2026-10-29 18:46:24,706 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8669, inMemoryMapOutputs.size() -> 2, commitMemory -> 8360, usedMemory ->17029
+2026-10-29 18:46:24,747 INFO  LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local156002746_0001_m_000004_0 decomp: 11105 len: 11109 to MEMORY
+2026-10-29 18:46:24,747 INFO  InMemoryMapOutput: Read 11105 bytes from map-output for attempt_local156002746_0001_m_000004_0
+2026-10-29 18:46:24,747 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 11105, inMemoryMapOutputs.size() -> 3, commitMemory -> 17029, usedMemory ->28134
+2026-10-29 18:46:24,780 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:24,788 INFO  LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local156002746_0001_m_000002_0 decomp: 8879 len: 8883 to MEMORY
+2026-10-29 18:46:24,788 INFO  InMemoryMapOutput: Read 8879 bytes from map-output for attempt_local156002746_0001_m_000002_0
+2026-10-29 18:46:24,788 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8879, inMemoryMapOutputs.size() -> 4, commitMemory -> 28134, usedMemory ->37013
+2026-10-29 18:46:24,830 INFO  LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local156002746_0001_m_000003_0 decomp: 9983 len: 9987 to MEMORY
+2026-10-29 18:46:24,838 INFO  InMemoryMapOutput: Read 9983 bytes from map-output for attempt_local156002746_0001_m_000003_0
+2026-10-29 18:46:24,838 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 9983, inMemoryMapOutputs.size() -> 5, commitMemory -> 37013, usedMemory ->46996
+2026-10-29 18:46:24,838 INFO  EventFetcher: EventFetcher is interrupted.. Returning
+2026-10-29 18:46:24,841 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:24,841 INFO  MergeManagerImpl: finalMerge called with 5 in-memory map-outputs and 0 on-disk map-outputs
+2026-10-29 18:46:24,921 INFO  Merger: Merging 5 sorted segments
+2026-10-29 18:46:24,921 INFO  Merger: Down to the last merge-pass, with 5 segments left of total size: 46961 bytes
+2026-10-29 18:46:24,941 INFO  MergeManagerImpl: Merged 5 segments, 46996 bytes to disk to satisfy reduce memory limit
+2026-10-29 18:46:24,945 INFO  MergeManagerImpl: Merging 1 files, 46992 bytes from disk
+2026-10-29 18:46:24,945 INFO  MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2026-10-29 18:46:24,945 INFO  Merger: Merging 1 sorted segments
+2026-10-29 18:46:24,954 INFO  Merger: Down to the last merge-pass, with 1 segments left of total size: 46981 bytes
+2026-10-29 18:46:24,954 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:24,979 INFO  deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2026-10-29 18:46:25,003 INFO  Task: Task:attempt_local156002746_0001_r_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:25,003 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:25,003 INFO  Task: Task attempt_local156002746_0001_r_000000_0 is allowed to commit now
+2026-10-29 18:46:25,036 INFO  FileOutputCommitter: Saved output of task 'attempt_local156002746_0001_r_000000_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task1
+2026-10-29 18:46:25,036 INFO  LocalJobRunner: reduce > reduce
+2026-10-29 18:46:25,036 INFO  Task: Task 'attempt_local156002746_0001_r_000000_0' done.
+2026-10-29 18:46:25,036 INFO  Task: Final Counters for attempt_local156002746_0001_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=20699090
+		FILE: Number of bytes written=632242
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=341
+		Reduce shuffle bytes=47016
+		Reduce input records=1453
+		Reduce output records=341
+		Spilled Records=1453
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=937426944
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=11659
+2026-10-29 18:46:25,036 INFO  LocalJobRunner: Finishing task: attempt_local156002746_0001_r_000000_0
+2026-10-29 18:46:25,036 INFO  LocalJobRunner: Starting task: attempt_local156002746_0001_r_000001_0
+2026-10-29 18:46:25,042 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:25,042 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:25,042 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:25,042 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:25,186 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@a84b575
+2026-10-29 18:46:25,186 INFO  ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6efca636
+2026-10-29 18:46:25,194 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:25,194 INFO  MergeManagerImpl: MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2026-10-29 18:46:25,194 INFO  EventFetcher: attempt_local156002746_0001_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events
+2026-10-29 18:46:25,227 INFO  LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local156002746_0001_m_000000_0 decomp: 8391 len: 8395 to MEMORY
+2026-10-29 18:46:25,235 INFO  InMemoryMapOutput: Read 8391 bytes from map-output for attempt_local156002746_0001_m_000000_0
+2026-10-29 18:46:25,235 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8391, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->8391
+2026-10-29 18:46:25,269 INFO  LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local156002746_0001_m_000001_0 decomp: 8600 len: 8604 to MEMORY
+2026-10-29 18:46:25,269 INFO  InMemoryMapOutput: Read 8600 bytes from map-output for attempt_local156002746_0001_m_000001_0
+2026-10-29 18:46:25,269 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8600, inMemoryMapOutputs.size() -> 2, commitMemory -> 8391, usedMemory ->16991
+2026-10-29 18:46:25,303 INFO  LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local156002746_0001_m_000004_0 decomp: 11295 len: 11299 to MEMORY
+2026-10-29 18:46:25,310 INFO  InMemoryMapOutput: Read 11295 bytes from map-output for attempt_local156002746_0001_m_000004_0
+2026-10-29 18:46:25,310 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 11295, inMemoryMapOutputs.size() -> 3, commitMemory -> 16991, usedMemory ->28286
+2026-10-29 18:46:25,335 INFO  LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local156002746_0001_m_000002_0 decomp: 9021 len: 9025 to MEMORY
+2026-10-29 18:46:25,344 INFO  InMemoryMapOutput: Read 9021 bytes from map-output for attempt_local156002746_0001_m_000002_0
+2026-10-29 18:46:25,344 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 9021, inMemoryMapOutputs.size() -> 4, commitMemory -> 28286, usedMemory ->37307
+2026-10-29 18:46:25,369 INFO  LocalFetcher: localfetcher#2 about to shuffle output of map attempt_local156002746_0001_m_000003_0 decomp: 10258 len: 10262 to MEMORY
+2026-10-29 18:46:25,377 INFO  InMemoryMapOutput: Read 10258 bytes from map-output for attempt_local156002746_0001_m_000003_0
+2026-10-29 18:46:25,377 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 10258, inMemoryMapOutputs.size() -> 5, commitMemory -> 37307, usedMemory ->47565
+2026-10-29 18:46:25,377 INFO  EventFetcher: EventFetcher is interrupted.. Returning
+2026-10-29 18:46:25,377 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:25,377 INFO  MergeManagerImpl: finalMerge called with 5 in-memory map-outputs and 0 on-disk map-outputs
+2026-10-29 18:46:25,453 INFO  Merger: Merging 5 sorted segments
+2026-10-29 18:46:25,453 INFO  Merger: Down to the last merge-pass, with 5 segments left of total size: 47530 bytes
+2026-10-29 18:46:25,461 INFO  MergeManagerImpl: Merged 5 segments, 47565 bytes to disk to satisfy reduce memory limit
+2026-10-29 18:46:25,469 INFO  MergeManagerImpl: Merging 1 files, 47561 bytes from disk
+2026-10-29 18:46:25,469 INFO  MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2026-10-29 18:46:25,469 INFO  Merger: Merging 1 sorted segments
+2026-10-29 18:46:25,469 INFO  Merger: Down to the last merge-pass, with 1 segments left of total size: 47550 bytes
+2026-10-29 18:46:25,478 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:25,503 INFO  Task: Task:attempt_local156002746_0001_r_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:25,507 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:25,507 INFO  Task: Task attempt_local156002746_0001_r_000001_0 is allowed to commit now
+2026-10-29 18:46:25,534 INFO  FileOutputCommitter: Saved output of task 'attempt_local156002746_0001_r_000001_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task1
+2026-10-29 18:46:25,535 INFO  LocalJobRunner: reduce > reduce
+2026-10-29 18:46:25,535 INFO  Task: Task 'attempt_local156002746_0001_r_000001_0' done.
+2026-10-29 18:46:25,535 INFO  Task: Final Counters for attempt_local156002746_0001_r_000001_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=20794516
+		FILE: Number of bytes written=691631
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=346
+		Reduce shuffle bytes=47585
+		Reduce input records=1470
+		Reduce output records=346
+		Spilled Records=1470
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=937426944
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=11828
+2026-10-29 18:46:25,535 INFO  LocalJobRunner: Finishing task: attempt_local156002746_0001_r_000001_0
+2026-10-29 18:46:25,537 INFO  LocalJobRunner: reduce task executor complete.
+2026-10-29 18:46:25,791 INFO  Job:  map 100% reduce 100%
+2026-10-29 18:46:25,791 INFO  Job: Job job_local156002746_0001 completed successfully
+2026-10-29 18:46:25,816 INFO  Job: Counters: 32
+	File System Counters
+		FILE: Number of bytes read=104181312
+		FILE: Number of bytes written=3987796
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=285286
+		Map output records=285285
+		Map output bytes=6007964
+		Map output materialized bytes=94601
+		Input split bytes=525
+		Combine input records=285285
+		Combine output records=2923
+		Reduce input groups=687
+		Reduce shuffle bytes=94601
+		Reduce input records=2923
+		Reduce output records=687
+		Spilled Records=5846
+		Shuffled Maps =10
+		Failed Shuffles=0
+		Merged Map outputs=10
+		GC time elapsed (ms)=242
+		Total committed heap usage (bytes)=5840568320
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=285285
+	File Input Format Counters 
+		Bytes Read=20553131
+	File Output Format Counters 
+		Bytes Written=23487
+COMPLETED task1-org-statistics job_local156002746_0001 validRows=285285
+2026-10-29 18:46:25,908 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:26,006 INFO  FileInputFormat: Total input files to process : 1
+2026-10-29 18:46:26,043 INFO  JobSubmitter: number of splits:5
+2026-10-29 18:46:26,072 INFO  JobSubmitter: Submitting tokens for job: job_local1948718656_0002
+2026-10-29 18:46:26,072 INFO  JobSubmitter: Executing with tokens: []
+2026-10-29 18:46:26,881 INFO  LocalDistributedCacheManager: Creating symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1948718656_0002_ab18fa5f-65f4-442c-9dd9-0154d6809b8a\_org.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/org.tsv
+2026-10-29 18:46:27,012 WARN  FileUtil: Command 'C:\Users\75566\Documents\Codex\2026-10-29\yue\work\tools\hadoop\bin\winutils.exe symlink C:\Users\75566\Documents\Codex\2026-10-29\yue\org.tsv C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1948718656_0002_ab18fa5f-65f4-442c-9dd9-0154d6809b8a\_org.tsv' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2026-10-29 18:46:27,012 WARN  LocalDistributedCacheManager: Failed to create symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1948718656_0002_ab18fa5f-65f4-442c-9dd9-0154d6809b8a\_org.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/org.tsv
+2026-10-29 18:46:27,012 INFO  LocalDistributedCacheManager: Localized file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/_org.tsv as file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/hadoop-tmp8/mapred/local/job_local1948718656_0002_ab18fa5f-65f4-442c-9dd9-0154d6809b8a/_org.tsv
+2026-10-29 18:46:27,064 INFO  Job: The url to track the job: http://localhost:8080/
+2026-10-29 18:46:27,064 INFO  Job: Running job: job_local1948718656_0002
+2026-10-29 18:46:27,064 INFO  LocalJobRunner: OutputCommitter set in config null
+2026-10-29 18:46:27,070 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:27,070 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:27,070 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:27,070 INFO  LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2026-10-29 18:46:27,095 INFO  LocalJobRunner: Waiting for map tasks
+2026-10-29 18:46:27,095 INFO  LocalJobRunner: Starting task: attempt_local1948718656_0002_m_000000_0
+2026-10-29 18:46:27,095 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:27,095 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:27,095 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:27,095 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:27,212 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2fa53d59
+2026-10-29 18:46:27,228 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:0+4194304
+2026-10-29 18:46:27,254 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:27,254 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:27,254 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:27,254 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:27,254 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:27,254 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:27,609 INFO  LocalJobRunner: 
+2026-10-29 18:46:27,609 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:27,609 INFO  MapTask: Spilling map output
+2026-10-29 18:46:27,609 INFO  MapTask: bufstart = 0; bufend = 477577; bufvoid = 104857600
+2026-10-29 18:46:27,609 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25983428(103933712); length = 230969/6553600
+2026-10-29 18:46:27,759 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:27,774 INFO  Task: Task:attempt_local1948718656_0002_m_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:27,781 INFO  LocalJobRunner: map
+2026-10-29 18:46:27,781 INFO  Task: Task 'attempt_local1948718656_0002_m_000000_0' done.
+2026-10-29 18:46:27,781 INFO  Task: Final Counters for attempt_local1948718656_0002_m_000000_0: Counters: 20
+	File System Counters
+		FILE: Number of bytes read=25092412
+		FILE: Number of bytes written=1228956
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57744
+		Map output records=57743
+		Map output bytes=477577
+		Map output materialized bytes=6494
+		Input split bytes=105
+		Combine input records=57743
+		Combine output records=549
+		Spilled Records=549
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=7
+		Total committed heap usage (bytes)=1090519040
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=57743
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:27,781 INFO  LocalJobRunner: Finishing task: attempt_local1948718656_0002_m_000000_0
+2026-10-29 18:46:27,781 INFO  LocalJobRunner: Starting task: attempt_local1948718656_0002_m_000001_0
+2026-10-29 18:46:27,781 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:27,781 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:27,781 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:27,781 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:27,917 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@3392c968
+2026-10-29 18:46:27,929 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:4194304+4194304
+2026-10-29 18:46:27,946 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:27,946 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:27,946 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:27,946 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:27,946 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:27,946 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:28,070 INFO  Job: Job job_local1948718656_0002 running in uber mode : false
+2026-10-29 18:46:28,070 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:28,310 INFO  LocalJobRunner: 
+2026-10-29 18:46:28,310 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:28,310 INFO  MapTask: Spilling map output
+2026-10-29 18:46:28,310 INFO  MapTask: bufstart = 0; bufend = 491382; bufvoid = 104857600
+2026-10-29 18:46:28,310 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25982936(103931744); length = 231461/6553600
+2026-10-29 18:46:28,678 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:28,709 INFO  Task: Task:attempt_local1948718656_0002_m_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:28,716 INFO  LocalJobRunner: map
+2026-10-29 18:46:28,716 INFO  Task: Task 'attempt_local1948718656_0002_m_000001_0' done.
+2026-10-29 18:46:28,716 INFO  Task: Final Counters for attempt_local1948718656_0002_m_000001_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=29314847
+		FILE: Number of bytes written=1235642
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57866
+		Map output records=57866
+		Map output bytes=491382
+		Map output materialized bytes=6630
+		Input split bytes=105
+		Combine input records=57866
+		Combine output records=547
+		Spilled Records=547
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=203
+		Total committed heap usage (bytes)=1327497216
+	edu.lab.CreditAnalysis$Rows
+		VALID=57866
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:28,716 INFO  LocalJobRunner: Finishing task: attempt_local1948718656_0002_m_000001_0
+2026-10-29 18:46:28,716 INFO  LocalJobRunner: Starting task: attempt_local1948718656_0002_m_000002_0
+2026-10-29 18:46:28,719 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:28,719 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:28,719 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:28,720 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:28,847 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@1be2e4be
+2026-10-29 18:46:28,862 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:8388608+4194304
+2026-10-29 18:46:28,877 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:28,877 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:28,877 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:28,877 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:28,877 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:28,877 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:29,160 INFO  LocalJobRunner: 
+2026-10-29 18:46:29,160 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:29,160 INFO  MapTask: Spilling map output
+2026-10-29 18:46:29,160 INFO  MapTask: bufstart = 0; bufend = 497201; bufvoid = 104857600
+2026-10-29 18:46:29,160 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25981636(103926544); length = 232761/6553600
+2026-10-29 18:46:29,307 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:29,331 INFO  Task: Task:attempt_local1948718656_0002_m_000002_0 is done. And is in the process of committing
+2026-10-29 18:46:29,340 INFO  LocalJobRunner: map
+2026-10-29 18:46:29,340 INFO  Task: Task 'attempt_local1948718656_0002_m_000002_0' done.
+2026-10-29 18:46:29,340 INFO  Task: Final Counters for attempt_local1948718656_0002_m_000002_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=33537282
+		FILE: Number of bytes written=1242329
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58191
+		Map output records=58191
+		Map output bytes=497201
+		Map output materialized bytes=6631
+		Input split bytes=105
+		Combine input records=58191
+		Combine output records=529
+		Spilled Records=529
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1327497216
+	edu.lab.CreditAnalysis$Rows
+		VALID=58191
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:29,340 INFO  LocalJobRunner: Finishing task: attempt_local1948718656_0002_m_000002_0
+2026-10-29 18:46:29,340 INFO  LocalJobRunner: Starting task: attempt_local1948718656_0002_m_000003_0
+2026-10-29 18:46:29,340 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:29,340 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:29,340 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:29,340 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:29,464 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@7158715c
+2026-10-29 18:46:29,481 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:12582912+4194304
+2026-10-29 18:46:29,492 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:29,492 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:29,492 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:29,492 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:29,492 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:29,497 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:29,784 INFO  LocalJobRunner: 
+2026-10-29 18:46:29,784 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:29,784 INFO  MapTask: Spilling map output
+2026-10-29 18:46:29,784 INFO  MapTask: bufstart = 0; bufend = 504449; bufvoid = 104857600
+2026-10-29 18:46:29,784 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25979488(103917952); length = 234909/6553600
+2026-10-29 18:46:30,094 INFO  Job:  map 60% reduce 0%
+2026-10-29 18:46:30,100 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:30,127 INFO  Task: Task:attempt_local1948718656_0002_m_000003_0 is done. And is in the process of committing
+2026-10-29 18:46:30,135 INFO  LocalJobRunner: map
+2026-10-29 18:46:30,135 INFO  Task: Task 'attempt_local1948718656_0002_m_000003_0' done.
+2026-10-29 18:46:30,135 INFO  Task: Final Counters for attempt_local1948718656_0002_m_000003_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=37759717
+		FILE: Number of bytes written=1249939
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58728
+		Map output records=58728
+		Map output bytes=504449
+		Map output materialized bytes=7554
+		Input split bytes=105
+		Combine input records=58728
+		Combine output records=611
+		Spilled Records=611
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=179
+		Total committed heap usage (bytes)=1545601024
+	edu.lab.CreditAnalysis$Rows
+		VALID=58728
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:30,135 INFO  LocalJobRunner: Finishing task: attempt_local1948718656_0002_m_000003_0
+2026-10-29 18:46:30,135 INFO  LocalJobRunner: Starting task: attempt_local1948718656_0002_m_000004_0
+2026-10-29 18:46:30,143 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:30,143 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:30,143 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:30,144 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:30,298 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2b2a1110
+2026-10-29 18:46:30,314 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:16777216+3759531
+2026-10-29 18:46:30,326 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:30,326 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:30,326 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:30,326 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:30,326 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:30,326 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:30,581 INFO  LocalJobRunner: 
+2026-10-29 18:46:30,581 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:30,581 INFO  MapTask: Spilling map output
+2026-10-29 18:46:30,581 INFO  MapTask: bufstart = 0; bufend = 453897; bufvoid = 104857600
+2026-10-29 18:46:30,581 INFO  MapTask: kvstart = 26214396(104857584); kvend = 26003372(104013488); length = 211025/6553600
+2026-10-29 18:46:30,713 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:30,728 INFO  Task: Task:attempt_local1948718656_0002_m_000004_0 is done. And is in the process of committing
+2026-10-29 18:46:30,736 INFO  LocalJobRunner: map
+2026-10-29 18:46:30,736 INFO  Task: Task 'attempt_local1948718656_0002_m_000004_0' done.
+2026-10-29 18:46:30,736 INFO  Task: Final Counters for attempt_local1948718656_0002_m_000004_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=41543283
+		FILE: Number of bytes written=1258348
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=52757
+		Map output records=52757
+		Map output bytes=453897
+		Map output materialized bytes=8353
+		Input split bytes=105
+		Combine input records=52757
+		Combine output records=687
+		Spilled Records=687
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1545601024
+	edu.lab.CreditAnalysis$Rows
+		VALID=52757
+	File Input Format Counters 
+		Bytes Read=3759531
+2026-10-29 18:46:30,736 INFO  LocalJobRunner: Finishing task: attempt_local1948718656_0002_m_000004_0
+2026-10-29 18:46:30,736 INFO  LocalJobRunner: map task executor complete.
+2026-10-29 18:46:30,736 INFO  LocalJobRunner: Waiting for reduce tasks
+2026-10-29 18:46:30,744 INFO  LocalJobRunner: Starting task: attempt_local1948718656_0002_r_000000_0
+2026-10-29 18:46:30,744 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:30,744 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:30,744 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:30,744 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:30,852 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@d355d2f
+2026-10-29 18:46:30,852 INFO  ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@90ad851
+2026-10-29 18:46:30,860 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:30,860 INFO  MergeManagerImpl: MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2026-10-29 18:46:30,860 INFO  EventFetcher: attempt_local1948718656_0002_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2026-10-29 18:46:30,893 INFO  LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1948718656_0002_m_000002_0 decomp: 3293 len: 3297 to MEMORY
+2026-10-29 18:46:30,901 INFO  InMemoryMapOutput: Read 3293 bytes from map-output for attempt_local1948718656_0002_m_000002_0
+2026-10-29 18:46:30,901 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 3293, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->3293
+2026-10-29 18:46:30,934 INFO  LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1948718656_0002_m_000001_0 decomp: 3316 len: 3320 to MEMORY
+2026-10-29 18:46:30,938 INFO  InMemoryMapOutput: Read 3316 bytes from map-output for attempt_local1948718656_0002_m_000001_0
+2026-10-29 18:46:30,938 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 3316, inMemoryMapOutputs.size() -> 2, commitMemory -> 3293, usedMemory ->6609
+2026-10-29 18:46:30,966 INFO  LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1948718656_0002_m_000004_0 decomp: 4138 len: 4142 to MEMORY
+2026-10-29 18:46:30,966 INFO  InMemoryMapOutput: Read 4138 bytes from map-output for attempt_local1948718656_0002_m_000004_0
+2026-10-29 18:46:30,966 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 4138, inMemoryMapOutputs.size() -> 3, commitMemory -> 6609, usedMemory ->10747
+2026-10-29 18:46:31,000 INFO  LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1948718656_0002_m_000000_0 decomp: 3211 len: 3215 to MEMORY
+2026-10-29 18:46:31,008 INFO  InMemoryMapOutput: Read 3211 bytes from map-output for attempt_local1948718656_0002_m_000000_0
+2026-10-29 18:46:31,008 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 3211, inMemoryMapOutputs.size() -> 4, commitMemory -> 10747, usedMemory ->13958
+2026-10-29 18:46:31,033 INFO  LocalFetcher: localfetcher#3 about to shuffle output of map attempt_local1948718656_0002_m_000003_0 decomp: 3726 len: 3730 to MEMORY
+2026-10-29 18:46:31,041 INFO  InMemoryMapOutput: Read 3726 bytes from map-output for attempt_local1948718656_0002_m_000003_0
+2026-10-29 18:46:31,041 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 3726, inMemoryMapOutputs.size() -> 5, commitMemory -> 13958, usedMemory ->17684
+2026-10-29 18:46:31,041 INFO  EventFetcher: EventFetcher is interrupted.. Returning
+2026-10-29 18:46:31,041 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:31,041 INFO  MergeManagerImpl: finalMerge called with 5 in-memory map-outputs and 0 on-disk map-outputs
+2026-10-29 18:46:31,090 INFO  Merger: Merging 5 sorted segments
+2026-10-29 18:46:31,090 INFO  Merger: Down to the last merge-pass, with 5 segments left of total size: 17649 bytes
+2026-10-29 18:46:31,099 INFO  MergeManagerImpl: Merged 5 segments, 17684 bytes to disk to satisfy reduce memory limit
+2026-10-29 18:46:31,107 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:31,107 INFO  MergeManagerImpl: Merging 1 files, 17680 bytes from disk
+2026-10-29 18:46:31,107 INFO  MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2026-10-29 18:46:31,107 INFO  Merger: Merging 1 sorted segments
+2026-10-29 18:46:31,116 INFO  Merger: Down to the last merge-pass, with 1 segments left of total size: 17669 bytes
+2026-10-29 18:46:31,116 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:31,140 INFO  Task: Task:attempt_local1948718656_0002_r_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:31,140 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:31,140 INFO  Task: Task attempt_local1948718656_0002_r_000000_0 is allowed to commit now
+2026-10-29 18:46:31,163 INFO  FileOutputCommitter: Saved output of task 'attempt_local1948718656_0002_r_000000_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task2
+2026-10-29 18:46:31,164 INFO  LocalJobRunner: reduce > reduce
+2026-10-29 18:46:31,164 INFO  Task: Task 'attempt_local1948718656_0002_r_000000_0' done.
+2026-10-29 18:46:31,165 INFO  Task: Final Counters for attempt_local1948718656_0002_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=41585861
+		FILE: Number of bytes written=1279981
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=341
+		Reduce shuffle bytes=17704
+		Reduce input records=1453
+		Reduce output records=341
+		Spilled Records=1453
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1545601024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=3953
+2026-10-29 18:46:31,165 INFO  LocalJobRunner: Finishing task: attempt_local1948718656_0002_r_000000_0
+2026-10-29 18:46:31,165 INFO  LocalJobRunner: Starting task: attempt_local1948718656_0002_r_000001_0
+2026-10-29 18:46:31,166 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:31,166 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:31,166 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:31,166 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:31,293 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@746aad14
+2026-10-29 18:46:31,293 INFO  ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@17ffba66
+2026-10-29 18:46:31,293 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:31,293 INFO  MergeManagerImpl: MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2026-10-29 18:46:31,298 INFO  EventFetcher: attempt_local1948718656_0002_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events
+2026-10-29 18:46:31,327 INFO  LocalFetcher: localfetcher#4 about to shuffle output of map attempt_local1948718656_0002_m_000002_0 decomp: 3330 len: 3334 to MEMORY
+2026-10-29 18:46:31,337 INFO  InMemoryMapOutput: Read 3330 bytes from map-output for attempt_local1948718656_0002_m_000002_0
+2026-10-29 18:46:31,337 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 3330, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->3330
+2026-10-29 18:46:31,372 INFO  LocalFetcher: localfetcher#4 about to shuffle output of map attempt_local1948718656_0002_m_000001_0 decomp: 3306 len: 3310 to MEMORY
+2026-10-29 18:46:31,374 INFO  InMemoryMapOutput: Read 3306 bytes from map-output for attempt_local1948718656_0002_m_000001_0
+2026-10-29 18:46:31,374 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 3306, inMemoryMapOutputs.size() -> 2, commitMemory -> 3330, usedMemory ->6636
+2026-10-29 18:46:31,400 INFO  LocalFetcher: localfetcher#4 about to shuffle output of map attempt_local1948718656_0002_m_000004_0 decomp: 4207 len: 4211 to MEMORY
+2026-10-29 18:46:31,407 INFO  InMemoryMapOutput: Read 4207 bytes from map-output for attempt_local1948718656_0002_m_000004_0
+2026-10-29 18:46:31,407 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 4207, inMemoryMapOutputs.size() -> 3, commitMemory -> 6636, usedMemory ->10843
+2026-10-29 18:46:31,437 INFO  LocalFetcher: localfetcher#4 about to shuffle output of map attempt_local1948718656_0002_m_000000_0 decomp: 3275 len: 3279 to MEMORY
+2026-10-29 18:46:31,441 INFO  InMemoryMapOutput: Read 3275 bytes from map-output for attempt_local1948718656_0002_m_000000_0
+2026-10-29 18:46:31,442 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 3275, inMemoryMapOutputs.size() -> 4, commitMemory -> 10843, usedMemory ->14118
+2026-10-29 18:46:31,464 INFO  LocalFetcher: localfetcher#4 about to shuffle output of map attempt_local1948718656_0002_m_000003_0 decomp: 3820 len: 3824 to MEMORY
+2026-10-29 18:46:31,473 INFO  InMemoryMapOutput: Read 3820 bytes from map-output for attempt_local1948718656_0002_m_000003_0
+2026-10-29 18:46:31,473 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 3820, inMemoryMapOutputs.size() -> 5, commitMemory -> 14118, usedMemory ->17938
+2026-10-29 18:46:31,474 INFO  EventFetcher: EventFetcher is interrupted.. Returning
+2026-10-29 18:46:31,474 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:31,474 INFO  MergeManagerImpl: finalMerge called with 5 in-memory map-outputs and 0 on-disk map-outputs
+2026-10-29 18:46:31,555 INFO  Merger: Merging 5 sorted segments
+2026-10-29 18:46:31,555 INFO  Merger: Down to the last merge-pass, with 5 segments left of total size: 17903 bytes
+2026-10-29 18:46:31,565 INFO  MergeManagerImpl: Merged 5 segments, 17938 bytes to disk to satisfy reduce memory limit
+2026-10-29 18:46:31,570 INFO  MergeManagerImpl: Merging 1 files, 17934 bytes from disk
+2026-10-29 18:46:31,570 INFO  MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2026-10-29 18:46:31,570 INFO  Merger: Merging 1 sorted segments
+2026-10-29 18:46:31,573 INFO  Merger: Down to the last merge-pass, with 1 segments left of total size: 17923 bytes
+2026-10-29 18:46:31,573 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:31,590 INFO  Task: Task:attempt_local1948718656_0002_r_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:31,595 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:31,595 INFO  Task: Task attempt_local1948718656_0002_r_000001_0 is allowed to commit now
+2026-10-29 18:46:31,612 INFO  FileOutputCommitter: Saved output of task 'attempt_local1948718656_0002_r_000001_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task2
+2026-10-29 18:46:31,612 INFO  LocalJobRunner: reduce > reduce
+2026-10-29 18:46:31,612 INFO  Task: Task 'attempt_local1948718656_0002_r_000001_0' done.
+2026-10-29 18:46:31,612 INFO  Task: Final Counters for attempt_local1948718656_0002_r_000001_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=41622033
+		FILE: Number of bytes written=1301924
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=346
+		Reduce shuffle bytes=17958
+		Reduce input records=1470
+		Reduce output records=346
+		Spilled Records=1470
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1545601024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=4009
+2026-10-29 18:46:31,612 INFO  LocalJobRunner: Finishing task: attempt_local1948718656_0002_r_000001_0
+2026-10-29 18:46:31,612 INFO  LocalJobRunner: reduce task executor complete.
+2026-10-29 18:46:32,114 INFO  Job:  map 100% reduce 100%
+2026-10-29 18:46:32,114 INFO  Job: Job job_local1948718656_0002 completed successfully
+2026-10-29 18:46:32,122 INFO  Job: Counters: 32
+	File System Counters
+		FILE: Number of bytes read=250455435
+		FILE: Number of bytes written=8797119
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=285286
+		Map output records=285285
+		Map output bytes=2424506
+		Map output materialized bytes=35662
+		Input split bytes=525
+		Combine input records=285285
+		Combine output records=2923
+		Reduce input groups=687
+		Reduce shuffle bytes=35662
+		Reduce input records=2923
+		Reduce output records=687
+		Spilled Records=5846
+		Shuffled Maps =10
+		Failed Shuffles=0
+		Merged Map outputs=10
+		GC time elapsed (ms)=389
+		Total committed heap usage (bytes)=9927917568
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=285285
+	File Input Format Counters 
+		Bytes Read=20553131
+	File Output Format Counters 
+		Bytes Written=7962
+COMPLETED task2-above-below-average job_local1948718656_0002 validRows=285285
+2026-10-29 18:46:32,130 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:32,221 INFO  FileInputFormat: Total input files to process : 1
+2026-10-29 18:46:32,280 INFO  JobSubmitter: number of splits:5
+2026-10-29 18:46:32,322 INFO  JobSubmitter: Submitting tokens for job: job_local1173880400_0003
+2026-10-29 18:46:32,322 INFO  JobSubmitter: Executing with tokens: []
+2026-10-29 18:46:32,470 INFO  Job: The url to track the job: http://localhost:8080/
+2026-10-29 18:46:32,470 INFO  Job: Running job: job_local1173880400_0003
+2026-10-29 18:46:32,470 INFO  LocalJobRunner: OutputCommitter set in config null
+2026-10-29 18:46:32,470 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:32,470 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:32,470 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:32,470 INFO  LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2026-10-29 18:46:32,495 INFO  LocalJobRunner: Waiting for map tasks
+2026-10-29 18:46:32,495 INFO  LocalJobRunner: Starting task: attempt_local1173880400_0003_m_000000_0
+2026-10-29 18:46:32,495 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:32,495 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:32,495 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:32,495 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:32,608 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@b10aa43
+2026-10-29 18:46:32,619 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:0+4194304
+2026-10-29 18:46:32,628 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:32,628 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:32,628 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:32,628 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:32,628 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:32,628 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:32,893 INFO  LocalJobRunner: 
+2026-10-29 18:46:32,893 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:32,893 INFO  MapTask: Spilling map output
+2026-10-29 18:46:32,893 INFO  MapTask: bufstart = 0; bufend = 923888; bufvoid = 104857600
+2026-10-29 18:46:32,893 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25983428(103933712); length = 230969/6553600
+2026-10-29 18:46:33,108 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:33,126 INFO  Task: Task:attempt_local1173880400_0003_m_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:33,133 INFO  LocalJobRunner: map
+2026-10-29 18:46:33,133 INFO  Task: Task 'attempt_local1173880400_0003_m_000000_0' done.
+2026-10-29 18:46:33,133 INFO  Task: Final Counters for attempt_local1173880400_0003_m_000000_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=45849452
+		FILE: Number of bytes written=2822012
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57744
+		Map output records=57743
+		Map output bytes=923888
+		Map output materialized bytes=1039380
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=57743
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1545601024
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=57743
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:33,133 INFO  LocalJobRunner: Finishing task: attempt_local1173880400_0003_m_000000_0
+2026-10-29 18:46:33,133 INFO  LocalJobRunner: Starting task: attempt_local1173880400_0003_m_000001_0
+2026-10-29 18:46:33,133 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:33,133 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:33,133 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:33,133 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:33,247 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4ae1fb27
+2026-10-29 18:46:33,257 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:4194304+4194304
+2026-10-29 18:46:33,279 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:33,279 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:33,279 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:33,279 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:33,279 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:33,281 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:33,471 INFO  Job: Job job_local1173880400_0003 running in uber mode : false
+2026-10-29 18:46:33,471 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:33,528 INFO  LocalJobRunner: 
+2026-10-29 18:46:33,528 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:33,528 INFO  MapTask: Spilling map output
+2026-10-29 18:46:33,528 INFO  MapTask: bufstart = 0; bufend = 925856; bufvoid = 104857600
+2026-10-29 18:46:33,528 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25982936(103931744); length = 231461/6553600
+2026-10-29 18:46:33,686 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:33,712 INFO  Task: Task:attempt_local1173880400_0003_m_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:33,718 INFO  LocalJobRunner: map
+2026-10-29 18:46:33,718 INFO  Task: Task 'attempt_local1173880400_0003_m_000001_0' done.
+2026-10-29 18:46:33,718 INFO  Task: Final Counters for attempt_local1173880400_0003_m_000001_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=50048400
+		FILE: Number of bytes written=3863638
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57866
+		Map output records=57866
+		Map output bytes=925856
+		Map output materialized bytes=1041594
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=57866
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=3
+		Total committed heap usage (bytes)=1546125312
+	edu.lab.CreditAnalysis$Rows
+		VALID=57866
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:33,718 INFO  LocalJobRunner: Finishing task: attempt_local1173880400_0003_m_000001_0
+2026-10-29 18:46:33,718 INFO  LocalJobRunner: Starting task: attempt_local1173880400_0003_m_000002_0
+2026-10-29 18:46:33,719 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:33,719 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:33,719 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:33,719 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:33,835 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4934989e
+2026-10-29 18:46:33,844 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:8388608+4194304
+2026-10-29 18:46:33,861 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:33,861 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:33,861 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:33,861 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:33,861 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:33,861 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:34,093 INFO  LocalJobRunner: 
+2026-10-29 18:46:34,093 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:34,093 INFO  MapTask: Spilling map output
+2026-10-29 18:46:34,093 INFO  MapTask: bufstart = 0; bufend = 931056; bufvoid = 104857600
+2026-10-29 18:46:34,093 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25981636(103926544); length = 232761/6553600
+2026-10-29 18:46:34,258 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:34,275 INFO  Task: Task:attempt_local1173880400_0003_m_000002_0 is done. And is in the process of committing
+2026-10-29 18:46:34,282 INFO  LocalJobRunner: map
+2026-10-29 18:46:34,282 INFO  Task: Task 'attempt_local1173880400_0003_m_000002_0' done.
+2026-10-29 18:46:34,282 INFO  Task: Final Counters for attempt_local1173880400_0003_m_000002_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=54247348
+		FILE: Number of bytes written=4911114
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58191
+		Map output records=58191
+		Map output bytes=931056
+		Map output materialized bytes=1047444
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=58191
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1546125312
+	edu.lab.CreditAnalysis$Rows
+		VALID=58191
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:34,282 INFO  LocalJobRunner: Finishing task: attempt_local1173880400_0003_m_000002_0
+2026-10-29 18:46:34,282 INFO  LocalJobRunner: Starting task: attempt_local1173880400_0003_m_000003_0
+2026-10-29 18:46:34,282 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:34,282 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:34,282 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:34,282 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:34,413 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6c6ba30f
+2026-10-29 18:46:34,421 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:12582912+4194304
+2026-10-29 18:46:34,430 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:34,430 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:34,430 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:34,430 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:34,430 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:34,430 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:34,694 INFO  LocalJobRunner: 
+2026-10-29 18:46:34,694 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:34,694 INFO  MapTask: Spilling map output
+2026-10-29 18:46:34,694 INFO  MapTask: bufstart = 0; bufend = 939648; bufvoid = 104857600
+2026-10-29 18:46:34,694 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25979488(103917952); length = 234909/6553600
+2026-10-29 18:46:34,876 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:34,915 INFO  Task: Task:attempt_local1173880400_0003_m_000003_0 is done. And is in the process of committing
+2026-10-29 18:46:34,923 INFO  LocalJobRunner: map
+2026-10-29 18:46:34,923 INFO  Task: Task 'attempt_local1173880400_0003_m_000003_0' done.
+2026-10-29 18:46:34,923 INFO  Task: Final Counters for attempt_local1173880400_0003_m_000003_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=58446296
+		FILE: Number of bytes written=5968256
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58728
+		Map output records=58728
+		Map output bytes=939648
+		Map output materialized bytes=1057110
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=58728
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=20
+		Total committed heap usage (bytes)=1546125312
+	edu.lab.CreditAnalysis$Rows
+		VALID=58728
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:34,923 INFO  LocalJobRunner: Finishing task: attempt_local1173880400_0003_m_000003_0
+2026-10-29 18:46:34,923 INFO  LocalJobRunner: Starting task: attempt_local1173880400_0003_m_000004_0
+2026-10-29 18:46:34,923 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:34,923 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:34,923 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:34,923 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:35,040 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@3b478966
+2026-10-29 18:46:35,056 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:16777216+3759531
+2026-10-29 18:46:35,064 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:35,064 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:35,064 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:35,064 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:35,064 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:35,064 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:35,278 INFO  LocalJobRunner: 
+2026-10-29 18:46:35,278 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:35,278 INFO  MapTask: Spilling map output
+2026-10-29 18:46:35,278 INFO  MapTask: bufstart = 0; bufend = 844112; bufvoid = 104857600
+2026-10-29 18:46:35,278 INFO  MapTask: kvstart = 26214396(104857584); kvend = 26003372(104013488); length = 211025/6553600
+2026-10-29 18:46:35,450 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:35,467 INFO  Task: Task:attempt_local1173880400_0003_m_000004_0 is done. And is in the process of committing
+2026-10-29 18:46:35,475 INFO  Job:  map 80% reduce 0%
+2026-10-29 18:46:35,475 INFO  LocalJobRunner: map
+2026-10-29 18:46:35,475 INFO  Task: Task 'attempt_local1173880400_0003_m_000004_0' done.
+2026-10-29 18:46:35,475 INFO  Task: Final Counters for attempt_local1173880400_0003_m_000004_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=62206375
+		FILE: Number of bytes written=6917920
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=52757
+		Map output records=52757
+		Map output bytes=844112
+		Map output materialized bytes=949632
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=52757
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1546125312
+	edu.lab.CreditAnalysis$Rows
+		VALID=52757
+	File Input Format Counters 
+		Bytes Read=3759531
+2026-10-29 18:46:35,475 INFO  LocalJobRunner: Finishing task: attempt_local1173880400_0003_m_000004_0
+2026-10-29 18:46:35,475 INFO  LocalJobRunner: map task executor complete.
+2026-10-29 18:46:35,475 INFO  LocalJobRunner: Waiting for reduce tasks
+2026-10-29 18:46:35,475 INFO  LocalJobRunner: Starting task: attempt_local1173880400_0003_r_000000_0
+2026-10-29 18:46:35,475 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:35,475 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:35,475 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:35,475 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:35,599 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@1abf8ff6
+2026-10-29 18:46:35,599 INFO  ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@1e801879
+2026-10-29 18:46:35,599 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:35,607 INFO  MergeManagerImpl: MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2026-10-29 18:46:35,607 INFO  EventFetcher: attempt_local1173880400_0003_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2026-10-29 18:46:35,632 INFO  LocalFetcher: localfetcher#5 about to shuffle output of map attempt_local1173880400_0003_m_000003_0 decomp: 1057106 len: 1057110 to MEMORY
+2026-10-29 18:46:35,640 INFO  InMemoryMapOutput: Read 1057106 bytes from map-output for attempt_local1173880400_0003_m_000003_0
+2026-10-29 18:46:35,640 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 1057106, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->1057106
+2026-10-29 18:46:35,666 INFO  LocalFetcher: localfetcher#5 about to shuffle output of map attempt_local1173880400_0003_m_000000_0 decomp: 1039376 len: 1039380 to MEMORY
+2026-10-29 18:46:35,673 INFO  InMemoryMapOutput: Read 1039376 bytes from map-output for attempt_local1173880400_0003_m_000000_0
+2026-10-29 18:46:35,673 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 1039376, inMemoryMapOutputs.size() -> 2, commitMemory -> 1057106, usedMemory ->2096482
+2026-10-29 18:46:35,698 INFO  LocalFetcher: localfetcher#5 about to shuffle output of map attempt_local1173880400_0003_m_000002_0 decomp: 1047440 len: 1047444 to MEMORY
+2026-10-29 18:46:35,707 INFO  InMemoryMapOutput: Read 1047440 bytes from map-output for attempt_local1173880400_0003_m_000002_0
+2026-10-29 18:46:35,707 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 1047440, inMemoryMapOutputs.size() -> 3, commitMemory -> 2096482, usedMemory ->3143922
+2026-10-29 18:46:35,734 INFO  LocalFetcher: localfetcher#5 about to shuffle output of map attempt_local1173880400_0003_m_000001_0 decomp: 1041590 len: 1041594 to MEMORY
+2026-10-29 18:46:35,741 INFO  InMemoryMapOutput: Read 1041590 bytes from map-output for attempt_local1173880400_0003_m_000001_0
+2026-10-29 18:46:35,741 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 1041590, inMemoryMapOutputs.size() -> 4, commitMemory -> 3143922, usedMemory ->4185512
+2026-10-29 18:46:35,764 INFO  LocalFetcher: localfetcher#5 about to shuffle output of map attempt_local1173880400_0003_m_000004_0 decomp: 949628 len: 949632 to MEMORY
+2026-10-29 18:46:35,772 INFO  InMemoryMapOutput: Read 949628 bytes from map-output for attempt_local1173880400_0003_m_000004_0
+2026-10-29 18:46:35,772 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 949628, inMemoryMapOutputs.size() -> 5, commitMemory -> 4185512, usedMemory ->5135140
+2026-10-29 18:46:35,772 INFO  EventFetcher: EventFetcher is interrupted.. Returning
+2026-10-29 18:46:35,772 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:35,772 INFO  MergeManagerImpl: finalMerge called with 5 in-memory map-outputs and 0 on-disk map-outputs
+2026-10-29 18:46:35,838 INFO  Merger: Merging 5 sorted segments
+2026-10-29 18:46:35,838 INFO  Merger: Down to the last merge-pass, with 5 segments left of total size: 5135090 bytes
+2026-10-29 18:46:36,068 INFO  MergeManagerImpl: Merged 5 segments, 5135140 bytes to disk to satisfy reduce memory limit
+2026-10-29 18:46:36,068 INFO  MergeManagerImpl: Merging 1 files, 5135136 bytes from disk
+2026-10-29 18:46:36,068 INFO  MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2026-10-29 18:46:36,068 INFO  Merger: Merging 1 sorted segments
+2026-10-29 18:46:36,076 INFO  Merger: Down to the last merge-pass, with 1 segments left of total size: 5135122 bytes
+2026-10-29 18:46:36,076 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:36,326 INFO  Task: Task:attempt_local1173880400_0003_r_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:36,326 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:36,326 INFO  Task: Task attempt_local1173880400_0003_r_000000_0 is allowed to commit now
+2026-10-29 18:46:36,343 INFO  FileOutputCommitter: Saved output of task 'attempt_local1173880400_0003_r_000000_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task3
+2026-10-29 18:46:36,343 INFO  LocalJobRunner: reduce > reduce
+2026-10-29 18:46:36,343 INFO  Task: Task 'attempt_local1173880400_0003_r_000000_0' done.
+2026-10-29 18:46:36,343 INFO  Task: Final Counters for attempt_local1173880400_0003_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=72476831
+		FILE: Number of bytes written=12053105
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=242569
+		Reduce shuffle bytes=5135160
+		Reduce input records=285285
+		Reduce output records=1
+		Spilled Records=285285
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1546125312
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=49
+2026-10-29 18:46:36,343 INFO  LocalJobRunner: Finishing task: attempt_local1173880400_0003_r_000000_0
+2026-10-29 18:46:36,343 INFO  LocalJobRunner: reduce task executor complete.
+2026-10-29 18:46:36,476 INFO  Job:  map 100% reduce 100%
+2026-10-29 18:46:36,476 INFO  Job: Job job_local1173880400_0003 completed successfully
+2026-10-29 18:46:36,477 INFO  Job: Counters: 32
+	File System Counters
+		FILE: Number of bytes read=343274702
+		FILE: Number of bytes written=36536045
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=285286
+		Map output records=285285
+		Map output bytes=4564560
+		Map output materialized bytes=5135160
+		Input split bytes=525
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=242569
+		Reduce shuffle bytes=5135160
+		Reduce input records=285285
+		Reduce output records=1
+		Spilled Records=570570
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=23
+		Total committed heap usage (bytes)=9276227584
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=285285
+	File Input Format Counters 
+		Bytes Read=20553131
+	File Output Format Counters 
+		Bytes Written=49
+COMPLETED task3-global-quantiles job_local1173880400_0003 validRows=285285
+2026-10-29 18:46:36,518 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:36,598 INFO  FileInputFormat: Total input files to process : 1
+2026-10-29 18:46:36,658 INFO  JobSubmitter: number of splits:5
+2026-10-29 18:46:36,679 INFO  JobSubmitter: Submitting tokens for job: job_local1901546732_0004
+2026-10-29 18:46:36,679 INFO  JobSubmitter: Executing with tokens: []
+2026-10-29 18:46:37,330 INFO  LocalDistributedCacheManager: Creating symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1901546732_0004_06d28f87-e020-487d-aab9-91e7e0588a8d\_quartiles.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/quartiles.tsv
+2026-10-29 18:46:37,453 WARN  FileUtil: Command 'C:\Users\75566\Documents\Codex\2026-10-29\yue\work\tools\hadoop\bin\winutils.exe symlink C:\Users\75566\Documents\Codex\2026-10-29\yue\quartiles.tsv C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1901546732_0004_06d28f87-e020-487d-aab9-91e7e0588a8d\_quartiles.tsv' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2026-10-29 18:46:37,453 WARN  LocalDistributedCacheManager: Failed to create symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1901546732_0004_06d28f87-e020-487d-aab9-91e7e0588a8d\_quartiles.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/quartiles.tsv
+2026-10-29 18:46:37,453 INFO  LocalDistributedCacheManager: Localized file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/_quartiles.tsv as file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/hadoop-tmp8/mapred/local/job_local1901546732_0004_06d28f87-e020-487d-aab9-91e7e0588a8d/_quartiles.tsv
+2026-10-29 18:46:37,503 INFO  Job: The url to track the job: http://localhost:8080/
+2026-10-29 18:46:37,503 INFO  Job: Running job: job_local1901546732_0004
+2026-10-29 18:46:37,503 INFO  LocalJobRunner: OutputCommitter set in config null
+2026-10-29 18:46:37,503 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:37,503 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:37,503 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:37,503 INFO  LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2026-10-29 18:46:37,530 INFO  LocalJobRunner: Waiting for map tasks
+2026-10-29 18:46:37,530 INFO  LocalJobRunner: Starting task: attempt_local1901546732_0004_m_000000_0
+2026-10-29 18:46:37,530 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:37,530 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:37,530 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:37,530 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:37,643 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@74538823
+2026-10-29 18:46:37,651 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:0+4194304
+2026-10-29 18:46:37,662 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:37,662 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:37,662 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:37,662 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:37,662 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:37,669 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:38,112 INFO  LocalJobRunner: 
+2026-10-29 18:46:38,112 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:38,112 INFO  MapTask: Spilling map output
+2026-10-29 18:46:38,112 INFO  MapTask: bufstart = 0; bufend = 2151243; bufvoid = 104857600
+2026-10-29 18:46:38,112 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25983428(103933712); length = 230969/6553600
+2026-10-29 18:46:38,238 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:38,264 INFO  Task: Task:attempt_local1901546732_0004_m_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:38,271 INFO  LocalJobRunner: map
+2026-10-29 18:46:38,271 INFO  Task: Task 'attempt_local1901546732_0004_m_000000_0' done.
+2026-10-29 18:46:38,271 INFO  Task: Final Counters for attempt_local1901546732_0004_m_000000_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=76704417
+		FILE: Number of bytes written=14803373
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57744
+		Map output records=57743
+		Map output bytes=2151243
+		Map output materialized bytes=2266735
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=57743
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=68
+		Total committed heap usage (bytes)=1571815424
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=57743
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:38,271 INFO  LocalJobRunner: Finishing task: attempt_local1901546732_0004_m_000000_0
+2026-10-29 18:46:38,271 INFO  LocalJobRunner: Starting task: attempt_local1901546732_0004_m_000001_0
+2026-10-29 18:46:38,271 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:38,271 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:38,271 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:38,271 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:38,387 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@12105ea
+2026-10-29 18:46:38,396 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:4194304+4194304
+2026-10-29 18:46:38,413 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:38,413 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:38,413 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:38,413 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:38,413 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:38,413 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:38,503 INFO  Job: Job job_local1901546732_0004 running in uber mode : false
+2026-10-29 18:46:38,504 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:38,758 INFO  LocalJobRunner: 
+2026-10-29 18:46:38,758 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:38,758 INFO  MapTask: Spilling map output
+2026-10-29 18:46:38,758 INFO  MapTask: bufstart = 0; bufend = 2135458; bufvoid = 104857600
+2026-10-29 18:46:38,758 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25982936(103931744); length = 231461/6553600
+2026-10-29 18:46:38,873 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:38,899 INFO  Task: Task:attempt_local1901546732_0004_m_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:38,899 INFO  LocalJobRunner: map
+2026-10-29 18:46:38,899 INFO  Task: Task 'attempt_local1901546732_0004_m_000001_0' done.
+2026-10-29 18:46:38,899 INFO  Task: Final Counters for attempt_local1901546732_0004_m_000001_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=80903418
+		FILE: Number of bytes written=17054601
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57866
+		Map output records=57866
+		Map output bytes=2135458
+		Map output materialized bytes=2251196
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=57866
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1571815424
+	edu.lab.CreditAnalysis$Rows
+		VALID=57866
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:38,899 INFO  LocalJobRunner: Finishing task: attempt_local1901546732_0004_m_000001_0
+2026-10-29 18:46:38,899 INFO  LocalJobRunner: Starting task: attempt_local1901546732_0004_m_000002_0
+2026-10-29 18:46:38,907 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:38,907 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:38,907 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:38,907 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:39,022 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@391ce0f6
+2026-10-29 18:46:39,039 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:8388608+4194304
+2026-10-29 18:46:39,047 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:39,047 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:39,047 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:39,047 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:39,047 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:39,047 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:39,412 INFO  LocalJobRunner: 
+2026-10-29 18:46:39,420 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:39,420 INFO  MapTask: Spilling map output
+2026-10-29 18:46:39,420 INFO  MapTask: bufstart = 0; bufend = 2140342; bufvoid = 104857600
+2026-10-29 18:46:39,420 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25981636(103926544); length = 232761/6553600
+2026-10-29 18:46:39,511 INFO  Job:  map 40% reduce 0%
+2026-10-29 18:46:39,553 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:39,569 INFO  Task: Task:attempt_local1901546732_0004_m_000002_0 is done. And is in the process of committing
+2026-10-29 18:46:39,578 INFO  LocalJobRunner: map
+2026-10-29 18:46:39,578 INFO  Task: Task 'attempt_local1901546732_0004_m_000002_0' done.
+2026-10-29 18:46:39,578 INFO  Task: Final Counters for attempt_local1901546732_0004_m_000002_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=85102419
+		FILE: Number of bytes written=19311363
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58191
+		Map output records=58191
+		Map output bytes=2140342
+		Map output materialized bytes=2256730
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=58191
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=29
+		Total committed heap usage (bytes)=1571815424
+	edu.lab.CreditAnalysis$Rows
+		VALID=58191
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:39,578 INFO  LocalJobRunner: Finishing task: attempt_local1901546732_0004_m_000002_0
+2026-10-29 18:46:39,578 INFO  LocalJobRunner: Starting task: attempt_local1901546732_0004_m_000003_0
+2026-10-29 18:46:39,578 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:39,578 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:39,578 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:39,578 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:39,708 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@2ff15e2
+2026-10-29 18:46:39,721 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:12582912+4194304
+2026-10-29 18:46:39,735 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:39,735 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:39,735 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:39,735 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:39,735 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:39,736 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:40,064 INFO  LocalJobRunner: 
+2026-10-29 18:46:40,064 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:40,064 INFO  MapTask: Spilling map output
+2026-10-29 18:46:40,064 INFO  MapTask: bufstart = 0; bufend = 2141514; bufvoid = 104857600
+2026-10-29 18:46:40,064 INFO  MapTask: kvstart = 26214396(104857584); kvend = 25979488(103917952); length = 234909/6553600
+2026-10-29 18:46:40,189 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:40,214 INFO  Task: Task:attempt_local1901546732_0004_m_000003_0 is done. And is in the process of committing
+2026-10-29 18:46:40,222 INFO  LocalJobRunner: map
+2026-10-29 18:46:40,222 INFO  Task: Task 'attempt_local1901546732_0004_m_000003_0' done.
+2026-10-29 18:46:40,222 INFO  Task: Final Counters for attempt_local1901546732_0004_m_000003_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=89301420
+		FILE: Number of bytes written=21570371
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58728
+		Map output records=58728
+		Map output bytes=2141514
+		Map output materialized bytes=2258976
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=58728
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1571815424
+	edu.lab.CreditAnalysis$Rows
+		VALID=58728
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:40,222 INFO  LocalJobRunner: Finishing task: attempt_local1901546732_0004_m_000003_0
+2026-10-29 18:46:40,222 INFO  LocalJobRunner: Starting task: attempt_local1901546732_0004_m_000004_0
+2026-10-29 18:46:40,222 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:40,222 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:40,222 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:40,222 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:40,371 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@298c88c4
+2026-10-29 18:46:40,386 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:16777216+3759531
+2026-10-29 18:46:40,403 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:40,403 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:40,403 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:40,403 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:40,403 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:40,411 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:40,525 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:40,707 INFO  LocalJobRunner: 
+2026-10-29 18:46:40,707 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:40,707 INFO  MapTask: Spilling map output
+2026-10-29 18:46:40,707 INFO  MapTask: bufstart = 0; bufend = 1915774; bufvoid = 104857600
+2026-10-29 18:46:40,707 INFO  MapTask: kvstart = 26214396(104857584); kvend = 26003372(104013488); length = 211025/6553600
+2026-10-29 18:46:40,839 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:40,863 INFO  Task: Task:attempt_local1901546732_0004_m_000004_0 is done. And is in the process of committing
+2026-10-29 18:46:40,871 INFO  LocalJobRunner: map
+2026-10-29 18:46:40,871 INFO  Task: Task 'attempt_local1901546732_0004_m_000004_0' done.
+2026-10-29 18:46:40,872 INFO  Task: Final Counters for attempt_local1901546732_0004_m_000004_0: Counters: 18
+	File System Counters
+		FILE: Number of bytes read=93061552
+		FILE: Number of bytes written=23591697
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=52757
+		Map output records=52757
+		Map output bytes=1915774
+		Map output materialized bytes=2021294
+		Input split bytes=105
+		Combine input records=0
+		Spilled Records=52757
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=3
+		Total committed heap usage (bytes)=1572339712
+	edu.lab.CreditAnalysis$Rows
+		VALID=52757
+	File Input Format Counters 
+		Bytes Read=3759531
+2026-10-29 18:46:40,872 INFO  LocalJobRunner: Finishing task: attempt_local1901546732_0004_m_000004_0
+2026-10-29 18:46:40,872 INFO  LocalJobRunner: map task executor complete.
+2026-10-29 18:46:40,872 INFO  LocalJobRunner: Waiting for reduce tasks
+2026-10-29 18:46:40,872 INFO  LocalJobRunner: Starting task: attempt_local1901546732_0004_r_000000_0
+2026-10-29 18:46:40,872 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:40,872 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:40,872 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:40,872 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:40,988 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@69a159d9
+2026-10-29 18:46:40,988 INFO  ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6d9ec035
+2026-10-29 18:46:40,988 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:40,996 INFO  MergeManagerImpl: MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2026-10-29 18:46:40,996 INFO  EventFetcher: attempt_local1901546732_0004_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2026-10-29 18:46:41,029 INFO  LocalFetcher: localfetcher#6 about to shuffle output of map attempt_local1901546732_0004_m_000003_0 decomp: 2258972 len: 2258976 to MEMORY
+2026-10-29 18:46:41,037 INFO  InMemoryMapOutput: Read 2258972 bytes from map-output for attempt_local1901546732_0004_m_000003_0
+2026-10-29 18:46:41,037 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 2258972, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2258972
+2026-10-29 18:46:41,079 INFO  LocalFetcher: localfetcher#6 about to shuffle output of map attempt_local1901546732_0004_m_000000_0 decomp: 2266731 len: 2266735 to MEMORY
+2026-10-29 18:46:41,079 INFO  InMemoryMapOutput: Read 2266731 bytes from map-output for attempt_local1901546732_0004_m_000000_0
+2026-10-29 18:46:41,087 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 2266731, inMemoryMapOutputs.size() -> 2, commitMemory -> 2258972, usedMemory ->4525703
+2026-10-29 18:46:41,120 INFO  LocalFetcher: localfetcher#6 about to shuffle output of map attempt_local1901546732_0004_m_000004_0 decomp: 2021290 len: 2021294 to MEMORY
+2026-10-29 18:46:41,128 INFO  InMemoryMapOutput: Read 2021290 bytes from map-output for attempt_local1901546732_0004_m_000004_0
+2026-10-29 18:46:41,128 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 2021290, inMemoryMapOutputs.size() -> 3, commitMemory -> 4525703, usedMemory ->6546993
+2026-10-29 18:46:41,167 INFO  LocalFetcher: localfetcher#6 about to shuffle output of map attempt_local1901546732_0004_m_000001_0 decomp: 2251192 len: 2251196 to MEMORY
+2026-10-29 18:46:41,173 INFO  InMemoryMapOutput: Read 2251192 bytes from map-output for attempt_local1901546732_0004_m_000001_0
+2026-10-29 18:46:41,173 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 2251192, inMemoryMapOutputs.size() -> 4, commitMemory -> 6546993, usedMemory ->8798185
+2026-10-29 18:46:41,203 INFO  LocalFetcher: localfetcher#6 about to shuffle output of map attempt_local1901546732_0004_m_000002_0 decomp: 2256726 len: 2256730 to MEMORY
+2026-10-29 18:46:41,210 INFO  InMemoryMapOutput: Read 2256726 bytes from map-output for attempt_local1901546732_0004_m_000002_0
+2026-10-29 18:46:41,210 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 2256726, inMemoryMapOutputs.size() -> 5, commitMemory -> 8798185, usedMemory ->11054911
+2026-10-29 18:46:41,211 INFO  EventFetcher: EventFetcher is interrupted.. Returning
+2026-10-29 18:46:41,211 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:41,211 INFO  MergeManagerImpl: finalMerge called with 5 in-memory map-outputs and 0 on-disk map-outputs
+2026-10-29 18:46:41,283 INFO  Merger: Merging 5 sorted segments
+2026-10-29 18:46:41,283 INFO  Merger: Down to the last merge-pass, with 5 segments left of total size: 11054881 bytes
+2026-10-29 18:46:41,531 INFO  MergeManagerImpl: Merged 5 segments, 11054911 bytes to disk to satisfy reduce memory limit
+2026-10-29 18:46:41,539 INFO  MergeManagerImpl: Merging 1 files, 11054907 bytes from disk
+2026-10-29 18:46:41,539 INFO  MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2026-10-29 18:46:41,539 INFO  Merger: Merging 1 sorted segments
+2026-10-29 18:46:41,539 INFO  Merger: Down to the last merge-pass, with 1 segments left of total size: 11054897 bytes
+2026-10-29 18:46:41,539 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:42,062 INFO  Task: Task:attempt_local1901546732_0004_r_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:42,067 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:42,067 INFO  Task: Task attempt_local1901546732_0004_r_000000_0 is allowed to commit now
+2026-10-29 18:46:42,083 INFO  FileOutputCommitter: Saved output of task 'attempt_local1901546732_0004_r_000000_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task4
+2026-10-29 18:46:42,083 INFO  LocalJobRunner: reduce > reduce
+2026-10-29 18:46:42,083 INFO  Task: Task 'attempt_local1901546732_0004_r_000000_0' done.
+2026-10-29 18:46:42,083 INFO  Task: Final Counters for attempt_local1901546732_0004_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=115171550
+		FILE: Number of bytes written=34647494
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=4
+		Reduce shuffle bytes=11054931
+		Reduce input records=285285
+		Reduce output records=28
+		Spilled Records=285285
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=3
+		Total committed heap usage (bytes)=1572339712
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=890
+2026-10-29 18:46:42,083 INFO  LocalJobRunner: Finishing task: attempt_local1901546732_0004_r_000000_0
+2026-10-29 18:46:42,083 INFO  LocalJobRunner: reduce task executor complete.
+2026-10-29 18:46:42,547 INFO  Job:  map 100% reduce 100%
+2026-10-29 18:46:42,547 INFO  Job: Job job_local1901546732_0004 completed successfully
+2026-10-29 18:46:42,547 INFO  Job: Counters: 32
+	File System Counters
+		FILE: Number of bytes read=540244776
+		FILE: Number of bytes written=130978899
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=285286
+		Map output records=285285
+		Map output bytes=10484331
+		Map output materialized bytes=11054931
+		Input split bytes=525
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=4
+		Reduce shuffle bytes=11054931
+		Reduce input records=285285
+		Reduce output records=28
+		Spilled Records=570570
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=103
+		Total committed heap usage (bytes)=9431941120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=285285
+	File Input Format Counters 
+		Bytes Read=20553131
+	File Output Format Counters 
+		Bytes Written=890
+COMPLETED task4-asset-composition job_local1901546732_0004 validRows=285285
+2026-10-29 18:46:42,556 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:42,639 INFO  FileInputFormat: Total input files to process : 1
+2026-10-29 18:46:42,680 INFO  JobSubmitter: number of splits:5
+2026-10-29 18:46:42,705 INFO  JobSubmitter: Submitting tokens for job: job_local161070296_0005
+2026-10-29 18:46:42,705 INFO  JobSubmitter: Executing with tokens: []
+2026-10-29 18:46:43,365 INFO  LocalDistributedCacheManager: Creating symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local161070296_0005_0b975629-8d2a-48f9-ace6-56c46dd92046\_quartiles.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/quartiles.tsv
+2026-10-29 18:46:43,491 WARN  FileUtil: Command 'C:\Users\75566\Documents\Codex\2026-10-29\yue\work\tools\hadoop\bin\winutils.exe symlink C:\Users\75566\Documents\Codex\2026-10-29\yue\quartiles.tsv C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local161070296_0005_0b975629-8d2a-48f9-ace6-56c46dd92046\_quartiles.tsv' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2026-10-29 18:46:43,491 WARN  LocalDistributedCacheManager: Failed to create symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local161070296_0005_0b975629-8d2a-48f9-ace6-56c46dd92046\_quartiles.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/quartiles.tsv
+2026-10-29 18:46:43,491 INFO  LocalDistributedCacheManager: Localized file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/_quartiles.tsv as file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/hadoop-tmp8/mapred/local/job_local161070296_0005_0b975629-8d2a-48f9-ace6-56c46dd92046/_quartiles.tsv
+2026-10-29 18:46:43,544 INFO  Job: The url to track the job: http://localhost:8080/
+2026-10-29 18:46:43,544 INFO  Job: Running job: job_local161070296_0005
+2026-10-29 18:46:43,544 INFO  LocalJobRunner: OutputCommitter set in config null
+2026-10-29 18:46:43,544 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:43,544 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:43,544 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:43,544 INFO  LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2026-10-29 18:46:43,568 INFO  LocalJobRunner: Waiting for map tasks
+2026-10-29 18:46:43,568 INFO  LocalJobRunner: Starting task: attempt_local161070296_0005_m_000000_0
+2026-10-29 18:46:43,568 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:43,568 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:43,568 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:43,568 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:43,705 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4ee2b399
+2026-10-29 18:46:43,723 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:0+4194304
+2026-10-29 18:46:43,739 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:43,739 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:43,739 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:43,739 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:43,739 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:43,739 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:44,397 INFO  LocalJobRunner: 
+2026-10-29 18:46:44,397 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:44,397 INFO  MapTask: Spilling map output
+2026-10-29 18:46:44,397 INFO  MapTask: bufstart = 0; bufend = 14566869; bufvoid = 104857600
+2026-10-29 18:46:44,397 INFO  MapTask: kvstart = 26214396(104857584); kvend = 22749820(90999280); length = 3464577/6553600
+2026-10-29 18:46:44,554 INFO  Job: Job job_local161070296_0005 running in uber mode : false
+2026-10-29 18:46:44,554 INFO  Job:  map 0% reduce 0%
+2026-10-29 18:46:44,986 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:45,006 INFO  Task: Task:attempt_local161070296_0005_m_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:45,013 INFO  LocalJobRunner: map
+2026-10-29 18:46:45,013 INFO  Task: Task 'attempt_local161070296_0005_m_000000_0' done.
+2026-10-29 18:46:45,013 INFO  Task: Final Counters for attempt_local161070296_0005_m_000000_0: Counters: 20
+	File System Counters
+		FILE: Number of bytes read=119399079
+		FILE: Number of bytes written=35149315
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57744
+		Map output records=866145
+		Map output bytes=14566869
+		Map output materialized bytes=19810
+		Input split bytes=105
+		Combine input records=866145
+		Combine output records=938
+		Spilled Records=938
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=73
+		Total committed heap usage (bytes)=1601175552
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=57743
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:45,013 INFO  LocalJobRunner: Finishing task: attempt_local161070296_0005_m_000000_0
+2026-10-29 18:46:45,013 INFO  LocalJobRunner: Starting task: attempt_local161070296_0005_m_000001_0
+2026-10-29 18:46:45,013 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:45,013 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:45,013 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:45,013 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:45,130 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6c047daf
+2026-10-29 18:46:45,146 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:4194304+4194304
+2026-10-29 18:46:45,158 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:45,158 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:45,158 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:45,158 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:45,158 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:45,163 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:45,562 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:45,730 INFO  LocalJobRunner: 
+2026-10-29 18:46:45,730 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:45,730 INFO  MapTask: Spilling map output
+2026-10-29 18:46:45,730 INFO  MapTask: bufstart = 0; bufend = 14610686; bufvoid = 104857600
+2026-10-29 18:46:45,730 INFO  MapTask: kvstart = 26214396(104857584); kvend = 22742440(90969760); length = 3471957/6553600
+2026-10-29 18:46:46,292 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:46,309 INFO  Task: Task:attempt_local161070296_0005_m_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:46,316 INFO  LocalJobRunner: map
+2026-10-29 18:46:46,316 INFO  Task: Task 'attempt_local161070296_0005_m_000001_0' done.
+2026-10-29 18:46:46,316 INFO  Task: Final Counters for attempt_local161070296_0005_m_000001_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=123598080
+		FILE: Number of bytes written=35169477
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=57866
+		Map output records=867990
+		Map output bytes=14610686
+		Map output materialized bytes=20106
+		Input split bytes=105
+		Combine input records=867990
+		Combine output records=950
+		Spilled Records=950
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1601175552
+	edu.lab.CreditAnalysis$Rows
+		VALID=57866
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:46,316 INFO  LocalJobRunner: Finishing task: attempt_local161070296_0005_m_000001_0
+2026-10-29 18:46:46,316 INFO  LocalJobRunner: Starting task: attempt_local161070296_0005_m_000002_0
+2026-10-29 18:46:46,317 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:46,317 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:46,317 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:46,317 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:46,433 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6f2569f4
+2026-10-29 18:46:46,441 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:8388608+4194304
+2026-10-29 18:46:46,458 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:46,458 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:46,458 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:46,458 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:46,458 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:46,458 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:47,022 INFO  LocalJobRunner: 
+2026-10-29 18:46:47,022 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:47,022 INFO  MapTask: Spilling map output
+2026-10-29 18:46:47,022 INFO  MapTask: bufstart = 0; bufend = 14695805; bufvoid = 104857600
+2026-10-29 18:46:47,022 INFO  MapTask: kvstart = 26214396(104857584); kvend = 22722940(90891760); length = 3491457/6553600
+2026-10-29 18:46:47,573 INFO  Job:  map 40% reduce 0%
+2026-10-29 18:46:47,613 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:47,629 INFO  Task: Task:attempt_local161070296_0005_m_000002_0 is done. And is in the process of committing
+2026-10-29 18:46:47,638 INFO  LocalJobRunner: map
+2026-10-29 18:46:47,638 INFO  Task: Task 'attempt_local161070296_0005_m_000002_0' done.
+2026-10-29 18:46:47,638 INFO  Task: Final Counters for attempt_local161070296_0005_m_000002_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=127797081
+		FILE: Number of bytes written=35187103
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58191
+		Map output records=872865
+		Map output bytes=14695805
+		Map output materialized bytes=17570
+		Input split bytes=105
+		Combine input records=872865
+		Combine output records=830
+		Spilled Records=830
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=3
+		Total committed heap usage (bytes)=1601175552
+	edu.lab.CreditAnalysis$Rows
+		VALID=58191
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:47,638 INFO  LocalJobRunner: Finishing task: attempt_local161070296_0005_m_000002_0
+2026-10-29 18:46:47,638 INFO  LocalJobRunner: Starting task: attempt_local161070296_0005_m_000003_0
+2026-10-29 18:46:47,638 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:47,638 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:47,638 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:47,638 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:47,769 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@64a5d413
+2026-10-29 18:46:47,777 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:12582912+4194304
+2026-10-29 18:46:47,794 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:47,794 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:47,794 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:47,794 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:47,794 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:47,794 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:48,362 INFO  LocalJobRunner: 
+2026-10-29 18:46:48,362 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:48,362 INFO  MapTask: Spilling map output
+2026-10-29 18:46:48,362 INFO  MapTask: bufstart = 0; bufend = 14834081; bufvoid = 104857600
+2026-10-29 18:46:48,362 INFO  MapTask: kvstart = 26214396(104857584); kvend = 22690720(90762880); length = 3523677/6553600
+2026-10-29 18:46:48,575 INFO  Job:  map 60% reduce 0%
+2026-10-29 18:46:48,922 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:48,937 INFO  Task: Task:attempt_local161070296_0005_m_000003_0 is done. And is in the process of committing
+2026-10-29 18:46:48,946 INFO  LocalJobRunner: map
+2026-10-29 18:46:48,946 INFO  Task: Task 'attempt_local161070296_0005_m_000003_0' done.
+2026-10-29 18:46:48,946 INFO  Task: Final Counters for attempt_local161070296_0005_m_000003_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=131996082
+		FILE: Number of bytes written=35203312
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=58728
+		Map output records=880920
+		Map output bytes=14834081
+		Map output materialized bytes=16153
+		Input split bytes=105
+		Combine input records=880920
+		Combine output records=761
+		Spilled Records=761
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=3
+		Total committed heap usage (bytes)=1601699840
+	edu.lab.CreditAnalysis$Rows
+		VALID=58728
+	File Input Format Counters 
+		Bytes Read=4198400
+2026-10-29 18:46:48,946 INFO  LocalJobRunner: Finishing task: attempt_local161070296_0005_m_000003_0
+2026-10-29 18:46:48,946 INFO  LocalJobRunner: Starting task: attempt_local161070296_0005_m_000004_0
+2026-10-29 18:46:48,946 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:48,946 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:48,946 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:48,946 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:49,066 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@32f975a4
+2026-10-29 18:46:49,079 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/train.csv:16777216+3759531
+2026-10-29 18:46:49,093 INFO  MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2026-10-29 18:46:49,093 INFO  MapTask: mapreduce.task.io.sort.mb: 100
+2026-10-29 18:46:49,093 INFO  MapTask: soft limit at 83886080
+2026-10-29 18:46:49,093 INFO  MapTask: bufstart = 0; bufvoid = 104857600
+2026-10-29 18:46:49,093 INFO  MapTask: kvstart = 26214396; length = 6553600
+2026-10-29 18:46:49,093 INFO  MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2026-10-29 18:46:49,591 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:49,605 INFO  LocalJobRunner: 
+2026-10-29 18:46:49,605 INFO  MapTask: Starting flush of map output
+2026-10-29 18:46:49,605 INFO  MapTask: Spilling map output
+2026-10-29 18:46:49,605 INFO  MapTask: bufstart = 0; bufend = 13326605; bufvoid = 104857600
+2026-10-29 18:46:49,605 INFO  MapTask: kvstart = 26214396(104857584); kvend = 23048980(92195920); length = 3165417/6553600
+2026-10-29 18:46:50,133 INFO  MapTask: Finished spill 0
+2026-10-29 18:46:50,147 INFO  Task: Task:attempt_local161070296_0005_m_000004_0 is done. And is in the process of committing
+2026-10-29 18:46:50,155 INFO  LocalJobRunner: map
+2026-10-29 18:46:50,155 INFO  Task: Task 'attempt_local161070296_0005_m_000004_0' done.
+2026-10-29 18:46:50,155 INFO  Task: Final Counters for attempt_local161070296_0005_m_000004_0: Counters: 19
+	File System Counters
+		FILE: Number of bytes read=135756214
+		FILE: Number of bytes written=35220658
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=52757
+		Map output records=791355
+		Map output bytes=13326605
+		Map output materialized bytes=17290
+		Input split bytes=105
+		Combine input records=791355
+		Combine output records=812
+		Spilled Records=812
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=2
+		Total committed heap usage (bytes)=1602224128
+	edu.lab.CreditAnalysis$Rows
+		VALID=52757
+	File Input Format Counters 
+		Bytes Read=3759531
+2026-10-29 18:46:50,155 INFO  LocalJobRunner: Finishing task: attempt_local161070296_0005_m_000004_0
+2026-10-29 18:46:50,155 INFO  LocalJobRunner: map task executor complete.
+2026-10-29 18:46:50,155 INFO  LocalJobRunner: Waiting for reduce tasks
+2026-10-29 18:46:50,155 INFO  LocalJobRunner: Starting task: attempt_local161070296_0005_r_000000_0
+2026-10-29 18:46:50,155 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:50,155 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:50,155 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:50,155 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:50,270 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6eb45042
+2026-10-29 18:46:50,270 INFO  ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6a8bc94c
+2026-10-29 18:46:50,270 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:50,270 INFO  MergeManagerImpl: MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2026-10-29 18:46:50,270 INFO  EventFetcher: attempt_local161070296_0005_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2026-10-29 18:46:50,297 INFO  LocalFetcher: localfetcher#7 about to shuffle output of map attempt_local161070296_0005_m_000002_0 decomp: 8720 len: 8724 to MEMORY
+2026-10-29 18:46:50,299 INFO  InMemoryMapOutput: Read 8720 bytes from map-output for attempt_local161070296_0005_m_000002_0
+2026-10-29 18:46:50,299 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8720, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->8720
+2026-10-29 18:46:50,320 INFO  LocalFetcher: localfetcher#7 about to shuffle output of map attempt_local161070296_0005_m_000003_0 decomp: 8109 len: 8113 to MEMORY
+2026-10-29 18:46:50,320 INFO  InMemoryMapOutput: Read 8109 bytes from map-output for attempt_local161070296_0005_m_000003_0
+2026-10-29 18:46:50,320 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8109, inMemoryMapOutputs.size() -> 2, commitMemory -> 8720, usedMemory ->16829
+2026-10-29 18:46:50,352 INFO  LocalFetcher: localfetcher#7 about to shuffle output of map attempt_local161070296_0005_m_000000_0 decomp: 9906 len: 9910 to MEMORY
+2026-10-29 18:46:50,352 INFO  InMemoryMapOutput: Read 9906 bytes from map-output for attempt_local161070296_0005_m_000000_0
+2026-10-29 18:46:50,352 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 9906, inMemoryMapOutputs.size() -> 3, commitMemory -> 16829, usedMemory ->26735
+2026-10-29 18:46:50,379 INFO  LocalFetcher: localfetcher#7 about to shuffle output of map attempt_local161070296_0005_m_000004_0 decomp: 8671 len: 8675 to MEMORY
+2026-10-29 18:46:50,379 INFO  InMemoryMapOutput: Read 8671 bytes from map-output for attempt_local161070296_0005_m_000004_0
+2026-10-29 18:46:50,384 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8671, inMemoryMapOutputs.size() -> 4, commitMemory -> 26735, usedMemory ->35406
+2026-10-29 18:46:50,400 INFO  LocalFetcher: localfetcher#7 about to shuffle output of map attempt_local161070296_0005_m_000001_0 decomp: 10008 len: 10012 to MEMORY
+2026-10-29 18:46:50,408 INFO  InMemoryMapOutput: Read 10008 bytes from map-output for attempt_local161070296_0005_m_000001_0
+2026-10-29 18:46:50,408 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 10008, inMemoryMapOutputs.size() -> 5, commitMemory -> 35406, usedMemory ->45414
+2026-10-29 18:46:50,408 INFO  EventFetcher: EventFetcher is interrupted.. Returning
+2026-10-29 18:46:50,408 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:50,408 INFO  MergeManagerImpl: finalMerge called with 5 in-memory map-outputs and 0 on-disk map-outputs
+2026-10-29 18:46:50,474 INFO  Merger: Merging 5 sorted segments
+2026-10-29 18:46:50,474 INFO  Merger: Down to the last merge-pass, with 5 segments left of total size: 45384 bytes
+2026-10-29 18:46:50,486 INFO  MergeManagerImpl: Merged 5 segments, 45414 bytes to disk to satisfy reduce memory limit
+2026-10-29 18:46:50,490 INFO  MergeManagerImpl: Merging 1 files, 45410 bytes from disk
+2026-10-29 18:46:50,490 INFO  MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2026-10-29 18:46:50,490 INFO  Merger: Merging 1 sorted segments
+2026-10-29 18:46:50,490 INFO  Merger: Down to the last merge-pass, with 1 segments left of total size: 45400 bytes
+2026-10-29 18:46:50,490 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:50,515 INFO  Task: Task:attempt_local161070296_0005_r_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:50,515 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:50,515 INFO  Task: Task attempt_local161070296_0005_r_000000_0 is allowed to commit now
+2026-10-29 18:46:50,533 INFO  FileOutputCommitter: Saved output of task 'attempt_local161070296_0005_r_000000_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/model
+2026-10-29 18:46:50,533 INFO  LocalJobRunner: reduce > reduce
+2026-10-29 18:46:50,533 INFO  Task: Task 'attempt_local161070296_0005_r_000000_0' done.
+2026-10-29 18:46:50,533 INFO  Task: Final Counters for attempt_local161070296_0005_r_000000_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=135867798
+		FILE: Number of bytes written=35274944
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=598
+		Reduce shuffle bytes=45434
+		Reduce input records=2143
+		Reduce output records=598
+		Spilled Records=2143
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1602224128
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=8876
+2026-10-29 18:46:50,533 INFO  LocalJobRunner: Finishing task: attempt_local161070296_0005_r_000000_0
+2026-10-29 18:46:50,533 INFO  LocalJobRunner: Starting task: attempt_local161070296_0005_r_000001_0
+2026-10-29 18:46:50,533 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:50,533 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:50,533 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:50,533 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:50,597 INFO  Job:  map 100% reduce 100%
+2026-10-29 18:46:50,647 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@755a9ec6
+2026-10-29 18:46:50,647 INFO  ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@55b8f124
+2026-10-29 18:46:50,647 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:50,651 INFO  MergeManagerImpl: MergerManager: memoryLimit=1336252800, maxSingleShuffleLimit=334063200, mergeThreshold=881926912, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2026-10-29 18:46:50,651 INFO  EventFetcher: attempt_local161070296_0005_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events
+2026-10-29 18:46:50,672 INFO  LocalFetcher: localfetcher#8 about to shuffle output of map attempt_local161070296_0005_m_000002_0 decomp: 8842 len: 8846 to MEMORY
+2026-10-29 18:46:50,680 INFO  InMemoryMapOutput: Read 8842 bytes from map-output for attempt_local161070296_0005_m_000002_0
+2026-10-29 18:46:50,680 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8842, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->8842
+2026-10-29 18:46:50,697 INFO  LocalFetcher: localfetcher#8 about to shuffle output of map attempt_local161070296_0005_m_000003_0 decomp: 8036 len: 8040 to MEMORY
+2026-10-29 18:46:50,706 INFO  InMemoryMapOutput: Read 8036 bytes from map-output for attempt_local161070296_0005_m_000003_0
+2026-10-29 18:46:50,706 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8036, inMemoryMapOutputs.size() -> 2, commitMemory -> 8842, usedMemory ->16878
+2026-10-29 18:46:50,728 INFO  LocalFetcher: localfetcher#8 about to shuffle output of map attempt_local161070296_0005_m_000000_0 decomp: 9896 len: 9900 to MEMORY
+2026-10-29 18:46:50,730 INFO  InMemoryMapOutput: Read 9896 bytes from map-output for attempt_local161070296_0005_m_000000_0
+2026-10-29 18:46:50,730 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 9896, inMemoryMapOutputs.size() -> 3, commitMemory -> 16878, usedMemory ->26774
+2026-10-29 18:46:50,755 INFO  LocalFetcher: localfetcher#8 about to shuffle output of map attempt_local161070296_0005_m_000004_0 decomp: 8611 len: 8615 to MEMORY
+2026-10-29 18:46:50,755 INFO  InMemoryMapOutput: Read 8611 bytes from map-output for attempt_local161070296_0005_m_000004_0
+2026-10-29 18:46:50,755 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 8611, inMemoryMapOutputs.size() -> 4, commitMemory -> 26774, usedMemory ->35385
+2026-10-29 18:46:50,780 INFO  LocalFetcher: localfetcher#8 about to shuffle output of map attempt_local161070296_0005_m_000001_0 decomp: 10090 len: 10094 to MEMORY
+2026-10-29 18:46:50,780 INFO  InMemoryMapOutput: Read 10090 bytes from map-output for attempt_local161070296_0005_m_000001_0
+2026-10-29 18:46:50,780 INFO  MergeManagerImpl: closeInMemoryFile -> map-output of size: 10090, inMemoryMapOutputs.size() -> 5, commitMemory -> 35385, usedMemory ->45475
+2026-10-29 18:46:50,780 INFO  EventFetcher: EventFetcher is interrupted.. Returning
+2026-10-29 18:46:50,780 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:50,780 INFO  MergeManagerImpl: finalMerge called with 5 in-memory map-outputs and 0 on-disk map-outputs
+2026-10-29 18:46:50,829 INFO  Merger: Merging 5 sorted segments
+2026-10-29 18:46:50,829 INFO  Merger: Down to the last merge-pass, with 5 segments left of total size: 45445 bytes
+2026-10-29 18:46:50,837 INFO  MergeManagerImpl: Merged 5 segments, 45475 bytes to disk to satisfy reduce memory limit
+2026-10-29 18:46:50,837 INFO  MergeManagerImpl: Merging 1 files, 45471 bytes from disk
+2026-10-29 18:46:50,837 INFO  MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2026-10-29 18:46:50,837 INFO  Merger: Merging 1 sorted segments
+2026-10-29 18:46:50,837 INFO  Merger: Down to the last merge-pass, with 1 segments left of total size: 45461 bytes
+2026-10-29 18:46:50,837 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:50,883 INFO  Task: Task:attempt_local161070296_0005_r_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:50,886 INFO  LocalJobRunner: 5 / 5 copied.
+2026-10-29 18:46:50,886 INFO  Task: Task attempt_local161070296_0005_r_000001_0 is allowed to commit now
+2026-10-29 18:46:50,902 INFO  FileOutputCommitter: Saved output of task 'attempt_local161070296_0005_r_000001_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/model
+2026-10-29 18:46:50,902 INFO  LocalJobRunner: reduce > reduce
+2026-10-29 18:46:50,902 INFO  Task: Task 'attempt_local161070296_0005_r_000001_0' done.
+2026-10-29 18:46:50,902 INFO  Task: Final Counters for attempt_local161070296_0005_r_000001_0: Counters: 24
+	File System Counters
+		FILE: Number of bytes read=135959044
+		FILE: Number of bytes written=35329372
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=605
+		Reduce shuffle bytes=45495
+		Reduce input records=2148
+		Reduce output records=605
+		Spilled Records=2148
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1602224128
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Output Format Counters 
+		Bytes Written=8957
+2026-10-29 18:46:50,902 INFO  LocalJobRunner: Finishing task: attempt_local161070296_0005_r_000001_0
+2026-10-29 18:46:50,902 INFO  LocalJobRunner: reduce task executor complete.
+2026-10-29 18:46:51,600 INFO  Job: Job job_local161070296_0005 completed successfully
+2026-10-29 18:46:51,602 INFO  Job: Counters: 32
+	File System Counters
+		FILE: Number of bytes read=910373378
+		FILE: Number of bytes written=246534181
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=285286
+		Map output records=4279275
+		Map output bytes=72034046
+		Map output materialized bytes=90929
+		Input split bytes=525
+		Combine input records=4279275
+		Combine output records=4291
+		Reduce input groups=1203
+		Reduce shuffle bytes=90929
+		Reduce input records=4291
+		Reduce output records=1203
+		Spilled Records=8582
+		Shuffled Maps =10
+		Failed Shuffles=0
+		Merged Map outputs=10
+		GC time elapsed (ms)=81
+		Total committed heap usage (bytes)=11211898880
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=285285
+	File Input Format Counters 
+		Bytes Read=20553131
+	File Output Format Counters 
+		Bytes Written=17833
+COMPLETED task5-train-naive-bayes job_local161070296_0005 validRows=285285
+2026-10-29 18:46:51,648 WARN  MetricsSystemImpl: JobTracker metrics system already initialized!
+2026-10-29 18:46:51,721 INFO  FileInputFormat: Total input files to process : 1
+2026-10-29 18:46:51,774 INFO  JobSubmitter: number of splits:4
+2026-10-29 18:46:51,797 INFO  JobSubmitter: Submitting tokens for job: job_local1902859694_0006
+2026-10-29 18:46:51,797 INFO  JobSubmitter: Executing with tokens: []
+2026-10-29 18:46:52,531 INFO  LocalDistributedCacheManager: Creating symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1902859694_0006_507f8fd1-289b-443e-a6c3-5434619afd37\_quartiles.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/quartiles.tsv
+2026-10-29 18:46:52,664 WARN  FileUtil: Command 'C:\Users\75566\Documents\Codex\2026-10-29\yue\work\tools\hadoop\bin\winutils.exe symlink C:\Users\75566\Documents\Codex\2026-10-29\yue\quartiles.tsv C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1902859694_0006_507f8fd1-289b-443e-a6c3-5434619afd37\_quartiles.tsv' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2026-10-29 18:46:52,664 WARN  LocalDistributedCacheManager: Failed to create symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1902859694_0006_507f8fd1-289b-443e-a6c3-5434619afd37\_quartiles.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/quartiles.tsv
+2026-10-29 18:46:52,664 INFO  LocalDistributedCacheManager: Localized file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/_quartiles.tsv as file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/hadoop-tmp8/mapred/local/job_local1902859694_0006_507f8fd1-289b-443e-a6c3-5434619afd37/_quartiles.tsv
+2026-10-29 18:46:52,664 INFO  LocalDistributedCacheManager: Creating symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1902859694_0006_3e5bedfe-4eea-4643-a003-713daa0c0683\_model.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/model.tsv
+2026-10-29 18:46:52,800 WARN  FileUtil: Command 'C:\Users\75566\Documents\Codex\2026-10-29\yue\work\tools\hadoop\bin\winutils.exe symlink C:\Users\75566\Documents\Codex\2026-10-29\yue\model.tsv C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1902859694_0006_3e5bedfe-4eea-4643-a003-713daa0c0683\_model.tsv' failed 1 with: CreateSymbolicLink error (1314): ???????????
+
+
+
+2026-10-29 18:46:52,800 WARN  LocalDistributedCacheManager: Failed to create symlink: C:\Users\75566\Documents\Codex\2026-10-29\yue\work\hadoop-tmp8\mapred\local\job_local1902859694_0006_3e5bedfe-4eea-4643-a003-713daa0c0683\_model.tsv <- C:\Users\75566\Documents\Codex\2026-10-29\yue/model.tsv
+2026-10-29 18:46:52,800 INFO  LocalDistributedCacheManager: Localized file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/_model.tsv as file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/hadoop-tmp8/mapred/local/job_local1902859694_0006_3e5bedfe-4eea-4643-a003-713daa0c0683/_model.tsv
+2026-10-29 18:46:52,850 INFO  Job: The url to track the job: http://localhost:8080/
+2026-10-29 18:46:52,850 INFO  Job: Running job: job_local1902859694_0006
+2026-10-29 18:46:52,850 INFO  LocalJobRunner: OutputCommitter set in config null
+2026-10-29 18:46:52,858 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:52,858 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:52,858 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:52,858 INFO  LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2026-10-29 18:46:52,875 INFO  LocalJobRunner: Waiting for map tasks
+2026-10-29 18:46:52,875 INFO  LocalJobRunner: Starting task: attempt_local1902859694_0006_m_000000_0
+2026-10-29 18:46:52,875 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:52,875 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:52,875 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:52,875 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:52,993 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@5e2ca6e2
+2026-10-29 18:46:53,007 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/test.csv:0+4194304
+2026-10-29 18:46:53,756 INFO  LocalJobRunner: 
+2026-10-29 18:46:53,756 INFO  Task: Task:attempt_local1902859694_0006_m_000000_0 is done. And is in the process of committing
+2026-10-29 18:46:53,758 INFO  LocalJobRunner: 
+2026-10-29 18:46:53,760 INFO  Task: Task attempt_local1902859694_0006_m_000000_0 is allowed to commit now
+2026-10-29 18:46:53,768 INFO  FileOutputCommitter: Saved output of task 'attempt_local1902859694_0006_m_000000_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task5
+2026-10-29 18:46:53,776 INFO  LocalJobRunner: map
+2026-10-29 18:46:53,777 INFO  Task: Task 'attempt_local1902859694_0006_m_000000_0' done.
+2026-10-29 18:46:53,777 INFO  Task: Final Counters for attempt_local1902859694_0006_m_000000_0: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=140239949
+		FILE: Number of bytes written=36626229
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=59368
+		Map output records=59367
+		Input split bytes=104
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=4
+		Total committed heap usage (bytes)=1602748416
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=59367
+	File Input Format Counters 
+		Bytes Read=4198400
+	File Output Format Counters 
+		Bytes Written=777811
+2026-10-29 18:46:53,777 INFO  LocalJobRunner: Finishing task: attempt_local1902859694_0006_m_000000_0
+2026-10-29 18:46:53,777 INFO  LocalJobRunner: Starting task: attempt_local1902859694_0006_m_000001_0
+2026-10-29 18:46:53,777 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:53,777 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:53,777 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:53,777 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:53,859 INFO  Job: Job job_local1902859694_0006 running in uber mode : false
+2026-10-29 18:46:53,860 INFO  Job:  map 100% reduce 0%
+2026-10-29 18:46:53,901 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@14b81674
+2026-10-29 18:46:53,910 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/test.csv:4194304+4194304
+2026-10-29 18:46:54,632 INFO  LocalJobRunner: 
+2026-10-29 18:46:54,640 INFO  Task: Task:attempt_local1902859694_0006_m_000001_0 is done. And is in the process of committing
+2026-10-29 18:46:54,640 INFO  LocalJobRunner: 
+2026-10-29 18:46:54,640 INFO  Task: Task attempt_local1902859694_0006_m_000001_0 is allowed to commit now
+2026-10-29 18:46:54,656 INFO  FileOutputCommitter: Saved output of task 'attempt_local1902859694_0006_m_000001_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task5
+2026-10-29 18:46:54,656 INFO  LocalJobRunner: map
+2026-10-29 18:46:54,656 INFO  Task: Task 'attempt_local1902859694_0006_m_000001_0' done.
+2026-10-29 18:46:54,656 INFO  Task: Final Counters for attempt_local1902859694_0006_m_000001_0: Counters: 16
+	File System Counters
+		FILE: Number of bytes read=144456666
+		FILE: Number of bytes written=37410237
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=59840
+		Map output records=59840
+		Input split bytes=104
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1602748416
+	edu.lab.CreditAnalysis$Rows
+		VALID=59840
+	File Input Format Counters 
+		Bytes Read=4198400
+	File Output Format Counters 
+		Bytes Written=784008
+2026-10-29 18:46:54,656 INFO  LocalJobRunner: Finishing task: attempt_local1902859694_0006_m_000001_0
+2026-10-29 18:46:54,656 INFO  LocalJobRunner: Starting task: attempt_local1902859694_0006_m_000002_0
+2026-10-29 18:46:54,656 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:54,656 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:54,656 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:54,656 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:54,784 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@77559412
+2026-10-29 18:46:54,793 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/test.csv:8388608+4194304
+2026-10-29 18:46:55,522 INFO  LocalJobRunner: 
+2026-10-29 18:46:55,522 INFO  Task: Task:attempt_local1902859694_0006_m_000002_0 is done. And is in the process of committing
+2026-10-29 18:46:55,527 INFO  LocalJobRunner: 
+2026-10-29 18:46:55,527 INFO  Task: Task attempt_local1902859694_0006_m_000002_0 is allowed to commit now
+2026-10-29 18:46:55,543 INFO  FileOutputCommitter: Saved output of task 'attempt_local1902859694_0006_m_000002_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task5
+2026-10-29 18:46:55,543 INFO  LocalJobRunner: map
+2026-10-29 18:46:55,543 INFO  Task: Task 'attempt_local1902859694_0006_m_000002_0' done.
+2026-10-29 18:46:55,543 INFO  Task: Final Counters for attempt_local1902859694_0006_m_000002_0: Counters: 16
+	File System Counters
+		FILE: Number of bytes read=148673383
+		FILE: Number of bytes written=38202408
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=60463
+		Map output records=60463
+		Input split bytes=104
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=3
+		Total committed heap usage (bytes)=1603796992
+	edu.lab.CreditAnalysis$Rows
+		VALID=60463
+	File Input Format Counters 
+		Bytes Read=4198400
+	File Output Format Counters 
+		Bytes Written=792171
+2026-10-29 18:46:55,543 INFO  LocalJobRunner: Finishing task: attempt_local1902859694_0006_m_000002_0
+2026-10-29 18:46:55,543 INFO  LocalJobRunner: Starting task: attempt_local1902859694_0006_m_000003_0
+2026-10-29 18:46:55,545 INFO  PathOutputCommitterFactory: No output committer factory defined, defaulting to FileOutputCommitterFactory
+2026-10-29 18:46:55,545 INFO  FileOutputCommitter: File Output Committer Algorithm version is 2
+2026-10-29 18:46:55,545 INFO  FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2026-10-29 18:46:55,545 INFO  ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2026-10-29 18:46:55,663 INFO  Task:  Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@437e6a1c
+2026-10-29 18:46:55,670 INFO  MapTask: Processing split: file:/C:/Users/75566/Downloads/test.csv:12582912+698539
+2026-10-29 18:46:55,811 INFO  LocalJobRunner: 
+2026-10-29 18:46:55,811 INFO  Task: Task:attempt_local1902859694_0006_m_000003_0 is done. And is in the process of committing
+2026-10-29 18:46:55,819 INFO  LocalJobRunner: 
+2026-10-29 18:46:55,819 INFO  Task: Task attempt_local1902859694_0006_m_000003_0 is allowed to commit now
+2026-10-29 18:46:55,835 INFO  FileOutputCommitter: Saved output of task 'attempt_local1902859694_0006_m_000003_0' to file:/C:/Users/75566/Documents/Codex/2026-10-29/yue/work/multimap/task5
+2026-10-29 18:46:55,835 INFO  LocalJobRunner: map
+2026-10-29 18:46:55,835 INFO  Task: Task 'attempt_local1902859694_0006_m_000003_0' done.
+2026-10-29 18:46:55,835 INFO  Task: Final Counters for attempt_local1902859694_0006_m_000003_0: Counters: 16
+	File System Counters
+		FILE: Number of bytes read=149390239
+		FILE: Number of bytes written=38334692
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=10096
+		Map output records=10096
+		Input split bytes=104
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		Total committed heap usage (bytes)=1603796992
+	edu.lab.CreditAnalysis$Rows
+		VALID=10096
+	File Input Format Counters 
+		Bytes Read=698539
+	File Output Format Counters 
+		Bytes Written=132284
+2026-10-29 18:46:55,835 INFO  LocalJobRunner: Finishing task: attempt_local1902859694_0006_m_000003_0
+2026-10-29 18:46:55,835 INFO  LocalJobRunner: map task executor complete.
+2026-10-29 18:46:55,877 INFO  Job: Job job_local1902859694_0006 completed successfully
+2026-10-29 18:46:55,878 INFO  Job: Counters: 17
+	File System Counters
+		FILE: Number of bytes read=582760237
+		FILE: Number of bytes written=150573566
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=189767
+		Map output records=189766
+		Input split bytes=416
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=7
+		Total committed heap usage (bytes)=6413090816
+	edu.lab.CreditAnalysis$Rows
+		HEADER=1
+		VALID=189766
+	File Input Format Counters 
+		Bytes Read=13293739
+	File Output Format Counters 
+		Bytes Written=2486274
+COMPLETED task5-distributed-prediction job_local1902859694_0006 validRows=189766

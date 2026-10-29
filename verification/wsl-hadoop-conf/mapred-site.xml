@@ -1,0 +1,12 @@
+<configuration>
+ <property><name>mapreduce.framework.name</name><value>yarn</value></property>
+ <property><name>mapreduce.application.classpath</name><value>/home/u5566/hadoop-3.3.6/share/hadoop/mapreduce/*,/home/u5566/hadoop-3.3.6/share/hadoop/mapreduce/lib/*</value></property>
+ <property><name>mapreduce.jobhistory.address</name><value>127.0.0.1:11020</value></property>
+ <property><name>mapreduce.jobhistory.webapp.address</name><value>127.0.0.1:19888</value></property>
+ <property><name>yarn.app.mapreduce.am.resource.mb</name><value>1024</value></property>
+ <property><name>yarn.app.mapreduce.am.command-opts</name><value>-Xmx768m</value></property>
+ <property><name>mapreduce.map.memory.mb</name><value>512</value></property>
+ <property><name>mapreduce.map.java.opts</name><value>-Xmx384m</value></property>
+ <property><name>mapreduce.reduce.memory.mb</name><value>1024</value></property>
+ <property><name>mapreduce.reduce.java.opts</name><value>-Xmx768m</value></property>
+</configuration>

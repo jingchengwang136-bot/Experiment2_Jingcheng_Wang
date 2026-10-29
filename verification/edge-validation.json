@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "train_rows": 12,
+  "train_unique_ids": 12,
+  "test_rows": 5,
+  "organizations": 2,
+  "labels": {
+    "0": 6,
+    "1": 6
+  },
+  "quantiles_nearest_rank": [
+    0.0,
+    10.0,
+    20.0
+  ],
+  "layer_sizes": {
+    "低资产": 4,
+    "中等资产": 4,
+    "较高资产": 2,
+    "高资产": 2
+  },
+  "prediction_counts": {
+    "0": 5
+  },
+  "total_assets": "140",
+  "total_debts": "0",
+  "missing_numeric_fields_train": {
+    "CUST_SAVING_AMT": 1,
+    "CUST_DEBT_AMT": 1
+  },
+  "checks": [
+    "task1 exact Decimal aggregates",
+    "task2 exact cross-multiplied means",
+    "task3 independent SQLite global ordering",
+    "task4 all 28 ratios and ordering",
+    "task5 full training count equality",
+    "task5 all test IDs and independent prediction equality"
+  ],
+  "sha256": {
+    "train.csv": "b12a17486a585fa94508febd1c474eb3e37526d203e0425c8151a5f1ebbcabe4",
+    "test.csv": "feda237605b55079f07144c1508e629e9efe5e0640dd3863cfc3429a01c5fda0"
+  }
+}
